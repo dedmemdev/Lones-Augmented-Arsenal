@@ -683,5 +683,56 @@
       "msg": "You fold the ar back into its mechanism and ready your blade.",
       "target": "gun_sword_metal"
     }
+  },
+  {
+    "id": "m22_knifegun",
+    "type": "TOOL",
+    "category": "weapons",
+	"looks_like": "switchblade",
+    "name": { "str": "m22 knife gun" },
+    "description": "This unique knife has a .22 revolver in the handle.",
+    "color": "dark_gray",
+    "material": [ "steel" ],
+    "weight": "700 g",
+    "volume": "750 ml",
+    "max_charges": 6,
+    "price": 20000,
+    "cutting": 15,
+    "to_hit": 1,
+    "symbol": "8",
+    "flags": [ "SHEATH_KNIFE", "STAB" ],
+    "use_action": {
+      "type": "transform",
+      "target": "m22_knifegun_on",
+      "active": false,
+      "msg": "You switch the knife handle and grip to fire."
+    }
+  },
+  {
+    "id": "m22_knifegun_on",
+    "copy-from": "pistol_revolver",
+    "looks_like": "switchblade",
+    "type": "GUN",
+    "name": { "str": "m22 gun knife" },
+    "description": "A six-shot .22 revolver integral to knife handle.",
+    "volume": "402 ml",
+    "price": 42400,
+    "price_postapoc": 1250,
+    "cutting": 15,
+    "valid_mod_locations": [],
+    "to_hit": -1,
+    "material": [ "steel" ],
+    "color": "dark_gray",
+    "ammo": "22",
+    "dispersion": 240,
+    "durability": 8,
+    "blackpowder_tolerance": 56,
+    "clip_size": 6,
+    "use_action": {
+      "type": "transform",
+      "target": "m22_knifegun",
+      "active": false,
+      "msg": "You switch the handle down and grip it for stabbing."
+    }
   }
 ]
