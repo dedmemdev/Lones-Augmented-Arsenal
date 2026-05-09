@@ -1,0 +1,33 @@
+[
+  {
+    "id": "double_mgl",
+    "copy-from": "launcher_base",
+    "type": "GUN",
+    "name": { "str_sp": "double barrel grenade launcher" },
+    "description": "A double barrel 40mm explosive launcher with a 6 cylinder for 6 shots.",
+    "weight": "5300 g",
+    "volume": "2250 ml",
+    "barrel_volume": "250 ml",
+    "price": "10400 USD",
+    "price_postapoc": "50 USD",
+    "material": "steel",
+    "ammo": "40x46mm",
+    "dispersion": 270,
+    "clip_size": 6,
+    "reload": 300,
+	"modes": [
+    [ "DEFAULT", "double", 2 ]
+  ],
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "grip", 1 ],
+      [ "rail", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "default_mods": [ "folding_stock" ]
+  }
+]
