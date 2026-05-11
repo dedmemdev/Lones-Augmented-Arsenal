@@ -29,7 +29,7 @@
   "built_in_mods": [ "suppressor" ],
 
   "magazines": [
-    [ "6.8x51", [ "rm277mag" ] ]
+    [ "277", [ "rm277mag" ] ]
   ]
 }
 ]
