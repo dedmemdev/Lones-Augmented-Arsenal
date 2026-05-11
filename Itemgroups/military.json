@@ -12,16 +12,7 @@
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
     "entries": [
-      { "item": "Xm5", "prob": 50, "charges": [ 0, 20 ] },
       { "item": "folding_rifle_base", "prob": 10 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "military_standard_lmgs",
-    "subtype": "distribution",
-    "entries": [
-      { "item": "Xm250", "prob": 50, "charges": [ 0, 100 ] }
     ]
   },
   {
@@ -45,11 +36,6 @@
       { "item": "gmglynxmag", "prob": 15, "charges-min": 0, "charges-max": 5 },
       { "item": "m134m", "prob": 5, "charges-min": 0, "charges-max": 100 },
       { "item": "belt308s", "prob": 10, "charges-min": 100, "charges-max": 250 },
-      { "item": "belt68_51_200", "prob": 20, "charges-min": 100, "charges-max": 200 },
-      { "item": "belt68_51_100", "prob": 15, "charges-min": 72, "charges-max": 100 },
-      { "item": "belt68_51_50", "prob": 25, "charges-min": 30, "charges-max": 50 },
-      { "item": "belt68_51_30", "prob": 50, "charges-min": 0, "charges-max": 30 },
-      { "item": "xm5_mag", "prob": 10, "charges-min": 0, "charges-max": 20 },
 	  { "item": "mollee_gunpack", "prob": 2 },
 	  { "item": "wrist_mounted_9mm", "prob": 2 },
 	  { "item": "double_mag_60", "prob": 7, "charges-min": 0, "charges-max": 60 },
@@ -108,7 +94,6 @@
     "//": "Military specification ammunition.",
     "subtype": "distribution",
     "entries": [
-      { "item": "6.8x51", "prob": 50 },
       { "item": "50_beowulf", "prob": 50 },
 	  { "item": "6mm", "prob": 50 },
 	  { "item": "50ae", "prob": 50 }
