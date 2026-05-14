@@ -1,6 +1,6 @@
 # Lones Augmented Arsenal!
 
- Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
+ Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. PLEASE READ FOR INSTALL INSTRCUTIONS
  
  <img width="1536" height="1024" alt="Copilot_20260328_151640" src="https://github.com/user-attachments/assets/c30c0d6f-646d-4db4-84b6-af462315234a" />
 
@@ -16,100 +16,327 @@ A modular high‑tech expansion for Cataclysm: Bright Nights
 
 Lone’s Augmented Arsenal is a comprehensive tech, weapons, and cybernetics expansion designed specifically for Cataclysm: Bright Nights. It embraces BN’s vision of a world where experimental prototypes, cybernetics, and advanced gear feel natural — and pushes that vision further with modular systems, bionic‑powered equipment, new professions, cyber‑animals, and a massive arsenal of weapons and tools.
 
-This mod is built to be transparent, customizable, and future‑proof, with clean JSON structure and modular categories for easy editing.
-
 🌐 Why Bright Nights?
 Bright Nights fits the tone I enjoy — a world where high‑tech gear, experimental weapons, and cybernetics feel integrated rather than out of place.
 This mod is designed for BN specifically and takes advantage of its mechanics, pacing, and lore direction. 
 
 ⚙️ Features Overview
-🔫 Weapons & Combat Gear
-A huge arsenal ranging from practical survival tools to exotic prototypes:
+Lones Augmented Arsenal — Item Index
+A complete categorized index of all items included in Lones Augmented Arsenal.
+This mod expands Cataclysm with bionic‑integrated armor, advanced weapons, exotic tech, deployable vehicles, professions, and more.
 
-Eliminator plasma rifle
+This list is intended for documentation, debugging, and future development reference.
 
-A whole new line of plasma weapons, and a new plasma bow!
+📦 Armors & Clothing
+cbma_bionic_armor
 
-Apache knuckleduster
+cbma_enhanced_armor
 
-Flaming katana & flaming zweihander
+cbma_bionic_helmet
 
-Modified Desert Eagle
+cbma_bionic_mask
 
-GMG Lynx
+cbma_enhanced_helmet
 
-Mini‑minigun
+cbma_bionic_gloves
 
-Four‑barrel flintlock
+cbma_enhanced_gloves
 
-DX‑12 Punisher
+cbma_bionic_boots
 
-Zombie‑survival M4A1
+cbma_enhanced_boots
 
-.50 Beowulf AR variant
+cbma_bionic_duster
 
-Dual trench knives, chainwhips, electroswords, and more
+cbma_enhanced_duster
 
-🧰 Tools, Utility & Tech
-Quality‑of‑life upgrades and advanced gadgets:
+cbma_carry_frame
 
-Wearable smartphone
+cbma_inner_suite
 
-Imalent MS18 flashlight
+cbma_enhanced_armor_ups
 
-Auto‑lockpick & auto‑safecracker
+cbma_enhanced_helmet_ups
 
-Cargo socks & thigh‑high cargo socks
+cbma_enhanced_gloves_ups
 
-XL tactical backpack & cargo duffel
+wearable_folding_bicycle
 
-Larger dog crates
+temporal_shoes_off
 
-New solar cart for charging the gyrocopter
+miltary_aim_assist_goggles
 
-Tool‑power integration (use bionic power to run tools)
+rm13_bionic_armor
 
-🧬 Cybernetics & Bionics
-A major focus of the mod — expanding BN’s cybernetic ecosystem:
+XL_tactical_backpack
 
-Lightning Emitter CBM
+cargo_duffel_bag
 
-Internal Furnace CBM (restored)
+cargo_boots
 
-Bionic armor sets
+kevlar_pa_small_quadruped
 
-Bionic weapon systems
+kevlar_pa_medium_quadruped
 
-Plutonium upgrade kit
+cargo_socks
 
-New plutonium cell recipe
+thigh_high_cargo_socks
 
-Bionic medkit
+🎁 Fun Items / Utility Boxes
+mre_box_small
 
-CBM kits: electric, armor, military, everyday, medical, black‑market
+mre_box_medium
 
-Modular bionic‑powered equipment that frees up CBM slots
+mre_box_large
 
-🐾 Cyber‑Animals
-Fully integrated cybernetic companions:
+electric_cbm_kit_box
 
-Cyber German Shepherds (pups + adults)
+armor_cbm_kit_box
 
-Cyber cats (kittens + adults)
+military_cbm_kit_box
 
-Cyber horses
+everyday_cbm_kit_box
 
-🤠 New Profession
-Bionic Cowboy — a thematic, high‑tech frontier survivor with unique gear and flavor.
+medical_cbm_kit_box
 
-Bionic prototype soldier - A high-tech bionic soldier, using prototype armors, and using a prototype power armor armor for your animal. Should be fun!
+blackmarket_cbm_kit_box
 
-Bionic master trainer - A high-tech animal trainer that train each cyber animal the military was using! 
+bionic_medkit_box
 
-Long Range Bionic Recon - A lone military soldier with a set up meant for exploration and long term survival! With a folding gyrocopter!
+holdout_holster
 
-and now! Cars! 
+⚡ Bionics
+bio_lightning_emitter
 
+🗡️ Melee Weapons
+cbma_mono_cutter
+
+cbma_mono_knife
+
+cbma_mono_sword
+
+cbma_mono_spear
+
+cbma_mono_throw_dagger
+
+chainwhip
+
+apache_knuckleduster
+
+electro_chainwhip
+
+dual_action_otf_blade
+
+bat_chete
+
+survival_spear
+
+survival_shotgun
+
+dual_knife_trench
+
+chain_sword
+
+flamekatana_off
+
+zweifire_off
+
+crackle_hydraulic_gauntlet
+
+thermal_hydraulic_gauntlet
+
+acid_hydraulic_gauntlet
+
+folding_axe
+
+gun_sword_metal
+
+sword_ar15
+
+m22_knifegun
+
+🧑‍🚀 Professions
+cbma_bionic_cowboy
+
+cbma_bionic_expert_trainer
+
+bionic_long_range_recon
+
+bionic_survivor_nomad
+
+aug_planar_frontiersman
+
+🐾 Monsters, Animals & Mechs
+combat_bionic_mech
+
+mon_cyber_german
+
+mon_cyber_german_pup
+
+mon_cyber_cat_kitten
+
+mon_cyber_cat
+
+mon_cyber_horse
+
+🔫 Firearms, Energy Weapons & Attachments
+(Ammo and magazines exist but are not listed here.)
+
+auto_crossbow
+
+plasma_longbow
+
+machine_bow
+
+acid_shot
+
+tri_blade_bayonet
+
+plasma_shot
+
+axe_bayonet
+
+mach_bow_arrowrest
+
+mach_bow_sight
+
+mach_bow_silencer
+
+mb_aux_shotgun
+
+mach_bow_brass_catcher
+
+life_card
+
+folding_rifle_base
+
+folding_rifle_on
+
+double_m4a1
+
+double_m249
+
+rm277
+
+m134m
+
+double_mgl
+
+modified_deagle_44
+
+AF2011A1
+
+gmglynx
+
+beowolf_ar
+
+deagle_50ae
+
+we23s_minigun
+
+beretta_93r
+
+folding_glock_base
+
+cbma_em_railrifle
+
+cbma_em_railrifle_as
+
+cbma_pilehammer_exp
+
+cbma_pilehammer_emp
+
+plasma_emitter_rifle
+
+plasma_emitter_carbine
+
+plasma_emitter_heavy
+
+plasma_emitter_suppressed
+
+plasma_emitter_assault
+
+plasma_emitter_sniper
+
+plasma_emitter_thrower
+
+cbmp_plasma_sword_off
+
+cbmp_plasma_sword_on
+
+plasma_emitter_double_assault
+
+double_laser_rifle
+
+four_barrel_pistol_flintlock
+
+axe_flintlock
+
+x_12_pistol
+
+dx_12_punisher
+
+aa_12
+
+kf2_doomstick
+
+m95_tact_shotgun
+
+cindy_suppressed_12g
+
+🔧 Random Items / Tools / Tech
+backpack_pa_tactical_large
+
+pa_bigback
+
+cbma_myomer_repair_tool
+
+cbma_myomer_fiber
+
+powered_flight_wings
+
+imalentms18
+
+imalent_on
+
+auto_safecracker
+
+double_plutonium_core
+
+auto_lockpick
+
+cyber_power_mod
+
+mollee_gunpack
+
+wrist_mounted_9mm
+
+house_dimension_key
+
+blob_tailors_kit
+
+pro_oxy_torch
+
+large_pet_carrier
+
+🚗 Vehicles & Deployables
+folded_helicopter_gyro
+
+folded_solar_cart
+
+folding_helicopter_gyro
+
+solar_charging_cart
+
+survivor_bus
+
+hover_motorcycle_enduro
+
+the_bug
+
+the_observer
+
+hover_superbike
 📦 Installation
 Download the latest release from the GitHub Releases page.
 
@@ -126,8 +353,6 @@ Requires Cata++, and Aftershock
 
 Designed to work cleanly with large modlists.
 
-JSON structure is BN‑native and future‑proofed.
-
 No hard overwrites; most content is additive.
 
 🖼️ Color‑Coded Mod Pack
@@ -141,6 +366,10 @@ Chaovolt — code assistance
 Kenan — ideas + code help
 
 SzQ — ideas
+
+Ham Attck - sounds (coming soon) 
+
+Dedmemdev - sprites for the mod (coming soon)
 
 The BN community — support, feedback, and encouragement
 
