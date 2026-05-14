@@ -1,6 +1,8 @@
 # Lones Augmented Arsenal!
 
- Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. PLEASE READ FOR INSTALL INSTRCUTIONS
+ Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
+ 
+ PLEASE READ FOR INSTALL INSTRCUTIONS
  
  <img width="1536" height="1024" alt="Copilot_20260328_151640" src="https://github.com/user-attachments/assets/c30c0d6f-646d-4db4-84b6-af462315234a" />
 
