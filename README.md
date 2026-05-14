@@ -48,8 +48,6 @@ Zombie‑survival M4A1
 
 .50 Beowulf AR variant
 
-New military rifles: XM5 & XM250
-
 Dual trench knives, chainwhips, electroswords, and more
 
 🧰 Tools, Utility & Tech
@@ -109,6 +107,8 @@ Bionic prototype soldier - A high-tech bionic soldier, using prototype armors, a
 Bionic master trainer - A high-tech animal trainer that train each cyber animal the military was using! 
 
 Long Range Bionic Recon - A lone military soldier with a set up meant for exploration and long term survival! With a folding gyrocopter!
+
+and now! Cars! 
 
 📦 Installation
 Download the latest release from the GitHub Releases page.
