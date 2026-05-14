@@ -325,6 +325,7 @@ the_bug
 the_observer
 
 hover_superbike
+
 📦 Installation
 Download the latest release from the GitHub Releases page.
 
