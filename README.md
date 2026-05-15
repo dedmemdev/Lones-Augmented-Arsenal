@@ -85,6 +85,7 @@ cargo_socks - the fabled item from dda days that nobody would add. I did!
 thigh_high_cargo_socks - wanted by the community
 
 🎁 Fun Items / Utility Boxes
+
 mre_box_small
 
 mre_box_medium
@@ -108,9 +109,11 @@ bionic_medkit_box
 holdout_holster - can allow a mag and a gun at the same time
 
 ⚡ Bionics
+
 bio_lightning_emitter - shoots electricity around you! (caution use electric proof clothes, or the cbm) 
 
 🗡️ Melee Weapons
+
 cbma_mono_cutter
 
 cbma_mono_knife
@@ -154,6 +157,7 @@ gun_sword_metal - a sword with a gun built in
 m22_knifegun - a knife with a .22cal gun built in
 
 🧑‍🚀 Professions
+
 cbma_bionic_cowboy
 
 cbma_bionic_expert_trainer - comes with one of each cyber animal! 
@@ -275,6 +279,7 @@ m95_tact_shotgun - a belt fed shotgun
 cindy_suppressed_12g - an intergral suppressed shotgun!
 
 🔧 Random Items / Tools / Tech
+
 backpack_pa_tactical_large
 
 pa_bigback
@@ -308,6 +313,7 @@ pro_oxy_torch - for big projects
 large_pet_carrier - for mechs mainly tbh
 
 🚗 Vehicles & Deployables
+
 folded_helicopter_gyro
 
 folded_solar_cart
