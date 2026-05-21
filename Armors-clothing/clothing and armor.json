@@ -246,7 +246,7 @@
       "holster_prompt": "Holster weapon",
       "holster_msg": "You holster your %s",
       "min_volume": "250 ml",
-      "max_volume": "3000 ml",
+      "max_volume": "3500 ml",
       "multi": 2,
       "draw_cost": 3,
       "skills": [ "smg", "shotgun", "rifle", "launcher" ]
