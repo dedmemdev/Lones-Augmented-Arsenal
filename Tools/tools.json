@@ -364,5 +364,61 @@
     "properties": [ [ "monster_size_capacity", "LARGE" ] ],
     "use_action": "CAPTURE_MONSTER_ACT",
     "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "riv_grenade",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "RM-E grenade" },
+    "description": "This is a Rivtech grenade. Does a lot more damage than a standard grenade and a bigger radius. Use this item to pull the pin and light the fuse.  You will then have five turns before it explodes; throwing it would be a good idea.",
+    "weight": "497 g",
+    "volume": "250 ml",
+    "price": "15 USD",
+    "price_postapoc": "10 USD",
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "steel" ],
+    "symbol": "*",
+    "color": "green",
+    "use_action": {
+      "target": "riv_grenade_act",
+      "msg": "You pull the pin on the grenade.",
+      "target_charges": 5,
+      "active": true,
+      "menu_text": "Pull pin",
+      "type": "transform"
+    },
+    "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "GRENADE" ]
+  },
+  {
+    "id": "riv_grenade_act",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "active RM-E grenade" },
+    "description": "This is an active Rivtech grenade, and will explode any second now.  Better throw it!",
+    "weight": "497 g",
+    "volume": "250 ml",
+    "price": "0 cent",
+    "price_postapoc": "0 cent",
+    "to_hit": -1,
+    "bashing": 6,
+    "material": [ "steel" ],
+    "symbol": "*",
+    "color": "green",
+    "initial_charges": 5,
+    "max_charges": 5,
+    "turns_per_charge": 1,
+    "use_action": {
+      "type": "explosion",
+      "sound_volume": 0,
+      "sound_msg": "Tick.",
+      "no_deactivate_msg": "You've already pulled the %s's pin; try throwing it instead.",
+      "explosion": {
+        "damage": 70,
+        "radius": 5,
+        "fragment": { "impact": { "damage_type": "bullet", "amount": 100, "armor_multiplier": 4 }, "range": 6 }
+      }
+    },
+    "flags": [ "BOMB", "TRADER_AVOID" ]
   }
 ]

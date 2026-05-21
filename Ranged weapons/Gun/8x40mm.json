@@ -1,0 +1,74 @@
+[
+{
+  "id": "rm11b_sniper_rifle_base",
+  "type": "TOOL",
+  "category": "weapons",
+
+  "name": { "str": "folding RM11B scout rifle base" },
+  "description": "A compact sniper rifle base. Activate to unfold into a functional sniper.",
+
+  "symbol": "8",
+  "color": "dark_gray",
+
+  "material": [ "brass" ],
+  "weight": "3100 g",
+  "volume": "750 ml",
+  "price": 20000,
+
+  "bashing": 10,
+  "to_hit": 0,
+
+  "use_action": {
+    "type": "transform",
+    "target": "rm11b_sniper_rifle_on",
+    "active": false,
+    "msg": "You unfold the RM11B scout rifle."
+  }
+},
+   {
+    "id": "rm11b_sniper_rifle_on",
+    "copy-from": "rifle_base",
+    "type": "GUN",
+    "name": { "str": "folding RM11B scout rifle" },
+    "description": "Intended to function as a long-range sharpshooter support weapon for the military, the Rivtech RM11B scout rifle was designed for durability and accuracy under less than ideal circumstances.  Its bullpup layout, integrated suppressor and digital scope, and two round burst mode allows it to deliver precise long-range takedowns, utilizing the proprietary Rivtech 8mm caseless round.  Accepts stick magazines, also folds.",
+    "weight": "3100 g",
+    "volume": "2 L",
+    "price": "29 kUSD",
+    "price_postapoc": "100 USD",
+    "bashing": 10,
+    "material": [ "superalloy", "ceramic" ],
+    "range": 20,
+    "handling": 25,
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
+    "dispersion": 10,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 2 ] ],
+    "barrel_volume": "750 ml",
+    "built_in_mods": [ "riv_scope", "riv_suppressor" ],
+    "durability": 9,
+    "ammo": "8x40mm",
+    "color": "dark_gray",
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "rail", 2 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazines": [ [ "8x40mm", [ "8x40_10_mag", "8x40_25_mag" ] ] ],
+    "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
+    "faults": [  ],
+	"use_action": {
+    "type": "transform",
+    "target": "rm11b_sniper_rifle_base",
+    "active": false,
+    "msg": "You fold the RM11B scout rifle."
+  },
+  }
+]

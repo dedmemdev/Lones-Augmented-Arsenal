@@ -96,5 +96,16 @@
 	  { "item": "6mm", "prob": 50 },
 	  { "item": "50ae", "prob": 50 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "rare",
+    "//": "Items that should have very low frequencies and or few locations.",
+    "magazine": 100,
+    "subtype": "distribution",
+    "entries": [
+      { "item": "rm11b_sniper_rifle_base", "prob": 10 },
+	  { "item": "riv_grenade", "prob": 10 }
+    ]
   }
 ]
