@@ -224,5 +224,24 @@
     "location": "brass catcher",
     "mod_target_category": [ [ "BOWS" ] ],
     "flags": [ "BRASS_CATCHER" ]
+  },
+  {
+    "id": "long_pistol_bayonet",
+    "type": "GUNMOD",
+    "name": { "str": "long blade pistol bayonet" },
+    "description": "A pistol bayonet, except it is added onto a gun via a large super magnet. A long blade to allow slashing, and firing.",
+    "weight": "122 g",
+    "volume": "1 L",
+    "price": "40 USD",
+    "price_postapoc": "10 USD",
+    "to_hit": 1,
+    "cutting": 20,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "underbarrel",
+    "mod_target_category": [ [ "PISTOLS" ], [ "REVOLVERS" ] ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
+    "flags": [ "STAB", "MELEE_GUNMOD" ]
   }
 ]
