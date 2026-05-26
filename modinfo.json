@@ -5,7 +5,7 @@
     "name": "<color_yellow>Lones Augmented Arsenal</color>",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
-    "description": "Adds many new atomic gears to BN!",
+    "description": "Adds a lot of new weapons, armor based on bionics, recipes, cars, and more!",
     "category": "content",
     "dependencies": [ "bn", "aftershock", "Cata++" ]
   }
