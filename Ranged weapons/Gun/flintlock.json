@@ -9,8 +9,8 @@
 
     "weight": "2000 g",
     "volume": "400 ml",
-    "price": 35000,
-    "price_postapoc": 1750,
+    "price": "35000 USD",
+    "price_postapoc": "1750 USD",
 
     "material": [ "iron", "wood" ],
     "color": "brown",
@@ -49,8 +49,8 @@
 
     "weight": "2000 g",
     "volume": "400 ml",
-    "price": 35000,
-    "price_postapoc": 1750,
+    "price": "35000 USD",
+    "price_postapoc": "1750 USD",
 
     "material": [ "iron", "wood" ],
     "color": "brown",
@@ -66,7 +66,7 @@
     "reload": 800,
 
     "bashing": 5,
-	"cutting": 25,
+    "cutting": 25,
 
     "valid_mod_locations": [
       [ "accessories", 1 ],

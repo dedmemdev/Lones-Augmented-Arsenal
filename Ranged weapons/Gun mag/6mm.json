@@ -1,5 +1,4 @@
-
-  [
+[
   {
     "id": "we23s_drum_1200",
     "type": "MAGAZINE",
@@ -12,8 +11,8 @@
 
     "weight": "1850 g",
     "volume": "3500 ml",
-    "price": 120000,
-    "price_postapoc": 800,
+    "price": "120000 USD",
+    "price_postapoc": "800 USD",
 
     "material": [ "plastic", "aluminum" ],
 

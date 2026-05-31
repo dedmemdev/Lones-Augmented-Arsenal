@@ -10,8 +10,8 @@
     "color": "blue",
     "weight": "300 g",
     "volume": "150 ml",
-    "price": 500,
-    "price_postapoc": 150,
+    "price": "500 USD",
+    "price_postapoc": "150 USD",
     "charges_per_use": 1,
     "ammo": "battery",
     "flags": [ "BELT_CLIP" ],
@@ -75,7 +75,7 @@
     "description": "An expansion device for plutonium‑powered equipment. With enough electronics skill, you can attach this to an atomic tool to double its plutonium capacity. Incompatible with the atomic battery mod.",
     "weight": "694 g",
     "volume": "750 ml",
-    "price": 10000,
+    "price": "10000 USD",
     "material": [ "superalloy", "plastic" ],
     "symbol": ";",
     "color": "dark_gray",
@@ -90,8 +90,8 @@
     "description": "A lab‑grade lockpick equipped with spring‑tensioned tumbler mechanisms to make lockpicking easier.",
     "weight": "23 g",
     "volume": "5 ml",
-    "price": 10000,
-    "price_postapoc": 100000,
+    "price": "10000 USD",
+    "price_postapoc": "100000 USD",
     "material": [ "steel" ],
     "symbol": ";",
     "color": "light_gray",
@@ -285,8 +285,8 @@
     "description": "This is a high quality kit consisting of a variety of needles, some plastic spools for thread, some small scissors, and an awl. Soaked in blob. Using your tailoring skill, this kit can customize your clothing and armor, whether up-armoring them or altering some items to fit mutant wearers.",
     "weight": "100 g",
     "volume": "500 ml",
-    "price": 1000,
-    "price_postapoc": 1000,
+    "price": "1000 USD",
+    "price_postapoc": "1000 USD",
     "to_hit": -2,
     "material": [ "plastic", "steel" ],
     "symbol": ";",
@@ -416,7 +416,7 @@
       "explosion": {
         "damage": 70,
         "radius": 5,
-        "fragment": { "impact": { "damage_type": "bullet", "amount": 100, "armor_multiplier": 4 }, "range": 6 }
+        "fragment": { "impact": { "damage_type": "bullet", "amount": 80, "armor_multiplier": 2 }, "range": 6 }
       }
     },
     "flags": [ "BOMB", "TRADER_AVOID" ]

@@ -7,8 +7,8 @@
     "weight": "540 g",
     "volume": "1500 ml",
     "integral_volume": "150 ml",
-    "price": 90000,
-    "price_postapoc": 9000,
+    "price": "90000 USD",
+    "price_postapoc": "9000 USD",
     "material": [ "steel" ],
     "looks_like": "high_density_capacitor",
     "symbol": ":",
@@ -37,6 +37,7 @@
     ],
     "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
   },
+
   {
     "id": "tri_blade_bayonet",
     "type": "GUNMOD",
@@ -52,7 +53,7 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "muzzle",
-	"mod_target_category": [
+    "mod_target_category": [
       [ "PISTOLS" ],
       [ "REVOLVERS" ],
       [ "SUBMACHINE_GUNS" ],
@@ -70,6 +71,7 @@
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
     "flags": [ "STAB", "MELEE_GUNMOD" ]
   },
+
   {
     "id": "plasma_shot",
     "type": "GUNMOD",
@@ -78,8 +80,8 @@
     "weight": "540 g",
     "volume": "1500 ml",
     "integral_volume": "150 ml",
-    "price": 90000,
-    "price_postapoc": 9000,
+    "price": "90000 USD",
+    "price_postapoc": "9000 USD",
     "material": [ "steel" ],
     "looks_like": "high_density_capacitor",
     "symbol": ":",
@@ -108,6 +110,7 @@
     ],
     "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
   },
+
   {
     "id": "axe_bayonet",
     "type": "GUNMOD",
@@ -128,16 +131,17 @@
     "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ], [ "BUTCHER", -18 ] ],
     "flags": [ "SLOW_WIELD", "STAB" ]
   },
+
   {
     "id": "mach_bow_arrowrest",
     "type": "GUNMOD",
     "name": { "str": "HM101A machine bow 'floating' reticle" },
-    "description": "A reticle for the HM101A machine bow that is suspended by the string's pulley system. It refracts a floating crosshair in front of the pin sight that the bow uses to calibrate itself to the user's aim line. Reduces dispersion as effectively as an arrow rest.",
+    "description": "A reticle for the HM101A machine bow that is suspended by the string's pulley system.",
     "weight": "0 g",
     "volume": "0 ml",
     "integral_volume": "0 ml",
     "price": "0 USD",
-    "price_postapoc": "0 cent",
+    "price_postapoc": "0 USD",
     "material": [ "superalloy" ],
     "symbol": ":",
     "location": "accessories",
@@ -145,16 +149,17 @@
     "dispersion_modifier": -250,
     "flags": [ "IRREMOVABLE" ]
   },
+
   {
     "id": "mach_bow_sight",
     "type": "GUNMOD",
     "name": { "str": "HM101A machine bow pin sight" },
-    "description": "An integrated pin sight set along the grip that can retract in order to cycle between it and another installed sight or scope of choice. Fast and accurate.",
+    "description": "An integrated pin sight set along the grip.",
     "weight": "0 g",
     "volume": "0 ml",
     "integral_volume": "0 ml",
     "price": "0 USD",
-    "price_postapoc": "0 cent",
+    "price_postapoc": "0 USD",
     "material": [ "superalloy" ],
     "symbol": ":",
     "location": "rail",
@@ -163,16 +168,17 @@
     "aim_speed": 12,
     "flags": [ "IRREMOVABLE" ]
   },
+
   {
     "id": "mach_bow_silencer",
     "type": "GUNMOD",
     "name": { "str": "machine bow suppressor" },
-    "description": "An integrated instrument for the HM101A machine bow that functions as a cross between a gun suppressor and a bow dampener. Reduces recoil so effectively that auto-fire matches bipod-accuracy levels at close ranges.",
+    "description": "An integrated instrument for the HM101A machine bow.",
     "weight": "0 g",
     "volume": "0 ml",
     "integral_volume": "0 ml",
     "price": "0 USD",
-    "price_postapoc": "0 cent",
+    "price_postapoc": "0 USD",
     "material": [ "superalloy" ],
     "symbol": ":",
     "location": "dampening",
@@ -180,16 +186,17 @@
     "handling_modifier": 22,
     "flags": [ "IRREMOVABLE" ]
   },
+
   {
     "id": "mb_aux_shotgun",
     "type": "GUNMOD",
     "name": { "str": "HM101A machine bow shotgun magazine" },
-    "description": "The integrated second shotgun magazine of the HM101A machine bow which holds 4 shots.  The magazine is irremovable.",
+    "description": "The integrated second shotgun magazine of the HM101A machine bow which holds 4 shots.",
     "weight": "100 g",
     "volume": "1750 ml",
     "integral_volume": "0 ml",
-    "price": "0 cent",
-    "price_postapoc": "0 cent",
+    "price": "0 USD",
+    "price_postapoc": "0 USD",
     "ammo_effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
     "material": [ "steel" ],
     "min_strength": 13,
@@ -208,16 +215,17 @@
     },
     "flags": [ "RELOAD_ONE", "NEVER_JAMS", "IRREMOVABLE", "STR_DRAW", "USE_PARENT_GUN" ]
   },
+
   {
     "id": "mach_bow_brass_catcher",
     "type": "GUNMOD",
     "name": { "str": "HM101A machine bow brass catcher" },
-    "description": "A bag that hangs off the side of your gun and catches ejected casings so you don't have to pick them up. For the HM101A machine bow.",
+    "description": "A bag that hangs off the side of your gun and catches ejected casings.",
     "weight": "114 g",
     "volume": "250 ml",
     "integral_volume": "50 ml",
     "price": "20 USD",
-    "price_postapoc": "50 cent",
+    "price_postapoc": "1 USD",
     "material": [ "cotton" ],
     "symbol": ":",
     "color": "light_gray",
@@ -225,11 +233,12 @@
     "mod_target_category": [ [ "BOWS" ] ],
     "flags": [ "BRASS_CATCHER" ]
   },
+
   {
     "id": "long_pistol_bayonet",
     "type": "GUNMOD",
     "name": { "str": "long blade pistol bayonet" },
-    "description": "A pistol bayonet, except it is added onto a gun via a large super magnet. A long blade to allow slashing, and firing.",
+    "description": "A pistol bayonet attached via a large super magnet.",
     "weight": "122 g",
     "volume": "1 L",
     "price": "40 USD",

@@ -1,79 +1,83 @@
 [
-{
-  "id": "gmglynx",
-  "type": "GUN",
-  "copy-from": "rifle_base",
-  "looks_like": "ar15",
+  {
+    "id": "gmglynx",
+    "type": "GUN",
+    "copy-from": "rifle_base",
+    "looks_like": "ar15",
 
-  "name": { "str": "GM6 Lynx" },
-  "description": "A semi‑automatic long‑recoil anti‑materiel rifle chambered in .50 BMG. Features a lockable barrel.",
+    "name": { "str": "GM6 Lynx" },
+    "description": "A semi‑automatic long‑recoil anti‑materiel rifle chambered in .50 BMG. Features a lockable barrel.",
 
-  "weight": "10000 g",
-  "volume": "2500 ml",
-  "price": 15000,
-  "price_postapoc": 12000,
+    "weight": "10000 g",
+    "volume": "2500 ml",
+    "price": "15000 USD",
+    "price_postapoc": "12000 USD",
 
-  "material": [ "steel" ],
-  "ammo": "50",
+    "material": [ "steel" ],
+    "ammo": "50",
 
-  "bashing": 12,
-  "to_hit": -1,
+    "bashing": 12,
+    "to_hit": -1,
 
-  "range": 100,
-  "ranged_damage": { "damage_type": "bullet", "amount": -5 },
-  "dispersion": 130,
-  "durability": 8,
+    "range": 100,
+    "ranged_damage": { "damage_type": "bullet", "amount": -5 },
+    "dispersion": 130,
+    "durability": 8,
 
-  "modes": [
-    [ "DEFAULT", "double", 2 ]
-  ],
+    "modes": [
+      [ "DEFAULT", "double", 2 ]
+    ],
 
-  "barrel_length": "18542 ml",
+    "barrel_length": "18542 ml",
 
-  "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
+    "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
 
-  "magazine_well": "250 ml",
-  "magazines": [
-    [ "50", [ "gmglynxmag" ] ]
-  ],
+    "magazine_well": "250 ml",
+    "magazines": [
+      [ "50", [ "gmglynxmag" ] ]
+    ],
 
-  "flags": [ "NEVER_JAMS" ]
-},
-{
-  "id": "beowolf_ar",
-  "type": "GUN",
-  "copy-from": "rifle_semi",
+    "flags": [ "NEVER_JAMS" ]
+  },
 
-  "name": { "str": "Beowulf AR‑15" },
-  "description": "An AR‑15 variant chambered in .50 Beowulf. A heavy‑hitting rifle with extreme stopping power.",
+  {
+    "id": "beowolf_ar",
+    "type": "GUN",
+    "copy-from": "rifle_semi",
 
-  "weight": "3500 g",
-  "volume": "2 L",
-  "price": 125000,
-  "price_postapoc": 4000,
+    "name": { "str": "Beowulf AR‑15" },
+    "description": "An AR‑15 variant chambered in .50 Beowulf. A heavy‑hitting rifle with extreme stopping power.",
 
-  "material": [ "steel", "plastic" ],
-  "color": "dark_gray",
+    "weight": "3500 g",
+    "volume": "2 L",
+    "price": "125000 USD",
+    "price_postapoc": "4000 USD",
 
-  "ammo": "50_beowulf",
-  "dispersion": 150,
-  "durability": 7,
-  "min_cycle_recoil": 1350,
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
 
-  "magazines": [
-    [ "50_beowulf", [ "beowulf_mag" ] ]
-  ]
-},
-{
+    "ammo": "50_beowulf",
+    "dispersion": 150,
+    "durability": 7,
+    "min_cycle_recoil": 1350,
+
+    "magazines": [
+      [ "50_beowulf", [ "beowulf_mag" ] ]
+    ]
+  },
+
+  {
     "id": "deagle_50ae",
     "copy-from": "pistol_base",
     "type": "GUN",
     "name": { "str_sp": "Desert Eagle .50AE" },
-    "description": "One of the most recognizable handguns due to its popularity in movies and video games, the Desert Eagle is better known for its menacing appearance than its performance.  It's a large pistol, but its heavy weight reduces recoil.",
+    "description": "One of the most recognizable handguns due to its popularity in movies and video games, the Desert Eagle is better known for its menacing appearance than its performance. It's a large pistol, but its heavy weight reduces recoil.",
+
     "weight": "1700 g",
     "volume": "750 ml",
     "price": "875 USD",
-    "price_postapoc": "2750 cent",
+    "price_postapoc": "2750 USD",
+
     "to_hit": -2,
     "bashing": 12,
     "material": [ "steel", "plastic" ],
@@ -82,6 +86,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "durability": 7,
     "min_cycle_recoil": 1413,
+
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -95,8 +100,10 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+
     "magazine_well": "250 ml",
-    "magazines": [ [ "50ae", [ "deaglemag_50ae" ] ] ]
+    "magazines": [
+      [ "50ae", [ "deaglemag_50ae" ] ]
+    ]
   }
 ]
-

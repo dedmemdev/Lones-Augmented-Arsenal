@@ -89,7 +89,7 @@
         }
       ]
     },
-    "power_draw": 160000,
+    "power_draw": 160,
     "revert_to": "temporal_shoes_off",
     "use_action": {
       "type": "transform",
@@ -246,7 +246,7 @@
       "holster_prompt": "Holster weapon",
       "holster_msg": "You holster your %s",
       "min_volume": "250 ml",
-      "max_volume": "3500 ml",
+      "max_volume": "5500 ml",
       "multi": 2,
       "draw_cost": 3,
       "skills": [ "smg", "shotgun", "rifle", "launcher" ]
@@ -280,7 +280,7 @@
       "holster_prompt": "Holster weapon",
       "holster_msg": "You holster your %s",
       "min_volume": "250 ml",
-      "max_volume": "3000 ml",
+      "max_volume": "4000 ml",
       "multi": 2,
       "draw_cost": 3,
       "skills": [ "smg", "rifle" ]

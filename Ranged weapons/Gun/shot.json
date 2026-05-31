@@ -12,8 +12,8 @@
 
     "weight": "1900 g",
     "volume": "750 ml",
-    "price": 87500,
-    "price_postapoc": 2750,
+    "price": "87500 USD",
+    "price_postapoc": "2750 USD",
 
     "material": [ "steel", "plastic" ],
 
@@ -69,9 +69,9 @@
     ],
 
     "relative": {
-      "weight": 500,
-      "volume": 5,
-      "price": 5000
+      "weight": "500 g",
+      "volume": "5 ml",
+      "price": "5000 USD"
     },
 
     "barrel_length": "72 ml",
@@ -91,22 +91,31 @@
       "flags": [ "RELOAD_ONE" ]
     }
   },
+
   {
     "id": "aa_12",
     "copy-from": "shotgun_base",
     "type": "GUN",
     "name": { "str": "AA 12 shotgun" },
-    "description": "The AA-12 (Auto Assault - 12), originally designed and known as the Atchisson Assault Shotgun, is a fully automatic combat shotgun developed in 1972 by Maxwell Atchisson. However, the original development by Atchisson seems to have produced only a few guns at prototype-level, with the development that ultimately led to the gun entering the market being done later by Military Police Systems, Inc.",
+    "description": "The AA-12 (Auto Assault - 12)...",
+
     "weight": "5200 g",
     "volume": "2750 ml",
     "price": "1890 USD",
     "price_postapoc": "45 USD",
+
     "material": [ "steel", "plastic" ],
     "dispersion": 395,
     "durability": 7,
-	"modes": [ [ "DEFAULT", "single", 1 ], [ "AUTO", "3 rd.", 3 ] ],
+
+    "modes": [
+      [ "DEFAULT", "single", 1 ],
+      [ "AUTO", "3 rd.", 3 ]
+    ],
+
     "barrel_volume": "250 ml",
     "magazine_well": "250 ml",
+
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -115,29 +124,38 @@
       [ "brass catcher", 1 ],
       [ "grip", 1 ]
     ],
+
     "blackpowder_tolerance": 24,
-    "magazines": [ [ "shot", [ "aa_12_mag", "aa_12_30rd" ] ] ]
+    "magazines": [
+      [ "shot", [ "aa_12_mag", "aa_12_30rd" ] ]
+    ]
   },
+
   {
     "id": "kf2_doomstick",
     "copy-from": "shotgun_base",
     "type": "GUN",
     "name": { "str": "KF2 Doomstick" },
-    "description": " Quad barrel eight round capacity, doubleshot or full auto? What more could you want? This shotgun is of unknown orgins but damn it packs a punch.",
+    "description": "Quad barrel eight round capacity...",
+
     "weight": "3402 g",
     "volume": "2623 ml",
     "looks_like": "m1014",
     "price": "600 USD",
-    "price_postapoc": "2250 cent",
+    "price_postapoc": "2250 USD",
+
     "material": [ "steel", "aluminum", "plastic" ],
     "ranged_damage": { "damage_type": "bullet", "amount": 1 },
     "dispersion": 345,
     "durability": 7,
-	 "modes": [
-    [ "DEFAULT", "double", 2 ],
-    [ "AUTO", "auto", 4 ]
-  ],
+
+    "modes": [
+      [ "DEFAULT", "double", 2 ],
+      [ "AUTO", "auto", 4 ]
+    ],
+
     "clip_size": 8,
+
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -151,28 +169,37 @@
       [ "sights", 1 ],
       [ "underbarrel", 1 ]
     ],
+
     "extend": { "flags": [ "RELOAD_ONE" ] }
   },
+
   {
     "id": "m95_tact_shotgun",
     "copy-from": "mg_base",
     "type": "GUN",
     "name": { "str": "M95 Tactical Assault Shotgun" },
-    "description": "The M95 is a belt fed shotgun that does immesnse crowd control. Quite inaccurate and difficult to control, but man does it kill well.",
+    "description": "The M95 is a belt fed shotgun...",
+
     "weight": "7330 g",
-	"looks_like": "m249",
+    "looks_like": "m249",
     "volume": "3 L",
     "barrel_volume": "250 ml",
     "price": "7500 USD",
     "price_postapoc": "80 USD",
+
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
     "ammo": "shot",
     "dispersion": 200,
     "durability": 7,
     "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "burst", 4 ] ],
+
+    "modes": [
+      [ "DEFAULT", "burst", 4 ]
+    ],
+
     "built_in_mods": [ "bipod" ],
+
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -186,49 +213,54 @@
       [ "sling", 1 ],
       [ "stock", 1 ]
     ],
+
     "magazines": [
       [
         "shot",
-        [
-          "belt_shot_200",
-		  "belt_shot_100"
-        ]
+        [ "belt_shot_200", "belt_shot_100" ]
       ]
     ]
   },
+
   {
-  "id": "cindy_suppressed_12g",
-  "type": "GUN",
-  "name": { "str": "Cindy integrally-suppressed shotgun" },
-  "description": "A compact, integrally-suppressed 12-gauge shotgun. The long internal baffle stack drastically reduces report and recoil, making it ideal for stealthy close-quarters work. Its shortened barrel slightly reduces pellet velocity.",
-  "weight": "3500 g",
-  "volume": "3500 ml",
-  "looks_like": "mossberg_500",
-  "price": 120000,
-  "price_postapoc": 8000,
-  "material": [ "steel", "plastic" ],
-  "symbol": "/",
-  "color": "dark_gray",
-  "skill": "shotgun",
-  "ammo": [ "shot" ],
-  "range": 12,
-  "ranged_damage": { "damage_type": "bullet", "amount": 0 },
-  "dispersion": 450,
-  "durability": 8,
-  "clip_size": 5,
-  "reload": 200,
-  "barrel_length": "200 ml",
-  "valid_mod_locations": [
-    [ "sling", 1 ],
-    [ "stock", 1 ],
-    [ "sights", 1 ]
-  ],
-  "flags": [ "NEVER_JAMS", "RELOAD_ONE", "PUMP_ACTION" ],
-  "loudness": 38,
-  "recoil": 120,
-  "modes": [
-    [ "DEFAULT", "pump", 1 ]
-  ],
-  "built_in_mods": [ "shot_suppressor" ]
+    "id": "cindy_suppressed_12g",
+    "type": "GUN",
+    "name": { "str": "Cindy integrally-suppressed shotgun" },
+    "description": "A compact, integrally-suppressed 12-gauge shotgun...",
+
+    "weight": "3500 g",
+    "volume": "3500 ml",
+    "looks_like": "mossberg_500",
+    "price": "120000 USD",
+    "price_postapoc": "8000 USD",
+
+    "material": [ "steel", "plastic" ],
+    "symbol": "/",
+    "color": "dark_gray",
+    "skill": "shotgun",
+    "ammo": [ "shot" ],
+    "range": 12,
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+    "dispersion": 450,
+    "durability": 8,
+    "clip_size": 5,
+    "reload": 200,
+    "barrel_length": "200 ml",
+
+    "valid_mod_locations": [
+      [ "sling", 1 ],
+      [ "stock", 1 ],
+      [ "sights", 1 ]
+    ],
+
+    "flags": [ "NEVER_JAMS", "RELOAD_ONE", "PUMP_ACTION" ],
+    "loudness": 38,
+    "recoil": 120,
+
+    "modes": [
+      [ "DEFAULT", "pump", 1 ]
+    ],
+
+    "built_in_mods": [ "shot_suppressor" ]
   }
 ]

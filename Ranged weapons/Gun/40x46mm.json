@@ -15,9 +15,9 @@
     "dispersion": 270,
     "clip_size": 6,
     "reload": 300,
-	"modes": [
-    [ "DEFAULT", "double", 2 ]
-  ],
+    "modes": [
+      [ "DEFAULT", "double", 2 ]
+    ],
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],

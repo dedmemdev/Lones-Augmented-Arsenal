@@ -11,8 +11,8 @@
 
   "weight": "9895 g",
   "volume": "4 L",
-  "price": 5500000,
-  "price_postapoc": 10000,
+  "price": "5500000 USD",
+  "price_postapoc": "10000 USD",
 
   "material": [ "hardsteel" ],
 

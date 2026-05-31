@@ -10,12 +10,12 @@
     "description": "A long slightly rusty chain usable as a whip. You don't know how you can use this but you can.",
     "weight": "5200 g",
     "volume": "2 L",
-    "price": 3500,
-    "price_postapoc": 500,
+    "price": "3500 USD",
+    "price_postapoc": "500 USD",
     "material": [ "steel" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
     "bashing": 10,
-	"cutting": 5
+    "cutting": 5
   },
   {
     "id": "apache_knuckleduster",
@@ -28,7 +28,7 @@
     "weight": "700 g",
     "volume": "750 ml",
     "max_charges": 6,
-    "price": 20000,
+    "price": "20000 USD",
     "bashing": 10,
     "to_hit": 1,
     "symbol": "8",
@@ -49,8 +49,8 @@
     "name": { "str": "Apache revolver" },
     "description": "A six-shot revolver integral to the Apache knuckleduster.",
     "volume": "402 ml",
-    "price": 42400,
-    "price_postapoc": 1250,
+    "price": "42400 USD",
+    "price_postapoc": "1250 USD",
     "cutting": 10,
     "valid_mod_locations": [],
     "to_hit": -2,
@@ -79,12 +79,12 @@
     "description": "A rusty chain whip with wiring and a battery slot. Activate to electrify.",
     "weight": "5200 g",
     "volume": "2 L",
-    "price": 3500,
-    "price_postapoc": 500,
+    "price": "3500 USD",
+    "price_postapoc": "500 USD",
     "material": [ "steel" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
-    "bashing": 15, 
-	"cutting": 8,
+    "bashing": 15,
+    "cutting": 8,
     "ammo": "plutonium",
     "max_charges": 5000,
     "charges_per_use": 20,
@@ -140,8 +140,8 @@
     "description": "A knife whose blade deploys at the touch of a button.",
     "weight": "114 g",
     "volume": "50 ml",
-    "price": 2000,
-    "price_postapoc": 50,
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
     "to_hit": -2,
     "material": [ "steel", "plastic" ],
     "symbol": ";",
@@ -162,8 +162,8 @@
     "description": "A deployed OTF switchblade.",
     "weight": "114 g",
     "volume": "56 ml",
-    "price": 2000,
-    "price_postapoc": 50,
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
     "to_hit": 1,
     "cutting": 13,
     "material": [ "steel", "plastic" ],
@@ -188,16 +188,16 @@
     "description": "A wooden bat with a machete blade built into it.",
     "weight": "1200 g",
     "to_hit": 3,
-    "price_postapoc": 600,
+    "price_postapoc": "600 USD",
     "color": "brown",
     "symbol": "/",
     "material": [ "wood" ],
     "techniques": [ "WBLOCK_1" ],
     "flags": [ "DURABLE_MELEE" ],
     "volume": "1750 ml",
-    "bashing": 26, 
-	"cutting": 15,
-    "price": 16000
+    "bashing": 26,
+    "cutting": 15,
+    "price": "16000 USD"
   },
 
   {
@@ -207,11 +207,11 @@
     "description": "A spear with a built‑in folding shotgun.",
     "weight": "4000 g",
     "volume": "17 L",
-    "price": 5500,
+    "price": "5500 USD",
     "looks_like": "spear_steel",
     "to_hit": -2,
     "bashing": 10,
-	"cutting": 20,
+    "cutting": 20,
     "max_charges": 8,
     "material": [ "steel", "superalloy" ],
     "symbol": "/",
@@ -234,7 +234,7 @@
     "symbol": "/",
     "color": "dark_gray",
     "description": "A shotgun built into a spear.",
-    "price": 5500,
+    "price": "5500 USD",
     "material": [ "steel", "superalloy" ],
     "skill": "shotgun",
     "weight": "3000 g",
@@ -248,7 +248,7 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -3 },
     "dispersion": 95,
     "durability": 7,
-    "barrel_length": 5,
+    "barrel_volume": "250 ml",
     "magazine_well": "250 ml",
     "clip_size": 8,
     "magazines": [],
@@ -269,11 +269,11 @@
     "description": "Two trench knives used together.",
     "weight": "1200 g",
     "volume": "500 ml",
-    "price": 15000,
-    "price_postapoc": 2250,
+    "price": "15000 USD",
+    "price_postapoc": "2250 USD",
     "to_hit": 1,
     "bashing": 12,
-	"cutting": 28,
+    "cutting": 28,
     "material": [ "steel", "wood" ],
     "symbol": ";",
     "color": "dark_gray",
@@ -281,8 +281,7 @@
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
     "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE" ]
   },
-
-  {
+    {
     "id": "chain_sword",
     "type": "TOOL",
     "category": "weapons",
@@ -293,12 +292,12 @@
     "description": "A sword with chainsaw teeth. Activate for full effect.",
     "weight": "2000 g",
     "volume": "5 L",
-    "price": 350000,
-    "price_postapoc": 1000,
+    "price": "350000 USD",
+    "price_postapoc": "1000 USD",
     "material": [ "steel" ],
     "flags": [ "DURABLE_MELEE", "TRADER_AVOID" ],
     "bashing": 6,
-	"cutting": 16,
+    "cutting": 16,
     "ammo": "gasoline",
     "max_charges": 1500,
     "charges_per_use": 1,
@@ -323,12 +322,12 @@
     "weight": "2000 g",
     "volume": "5 L",
     "symbol": "/",
-    "price": 350000,
-    "price_postapoc": 1000,
+    "price": "350000 USD",
+    "price_postapoc": "1000 USD",
     "material": [ "steel" ],
     "flags": [ "DURABLE_MELEE", "TRADER_AVOID" ],
     "bashing": 6,
-	"cutting": 120,
+    "cutting": 120,
     "ammo": "gasoline",
     "max_charges": 1500,
     "charges_per_use": 1,
@@ -353,9 +352,9 @@
     "description": "A katana with a built‑in fuel nozzle. Use to ignite.",
     "weight": "1400 g",
     "volume": "2250 ml",
-    "price": 98000,
+    "price": "98000 USD",
     "bashing": 4,
-	"cutting": 31,
+    "cutting": 31,
     "material": "steel",
     "symbol": "/",
     "color": "light_gray",
@@ -383,9 +382,9 @@
     "description": "A katana blazing with intense heat.",
     "weight": "1400 g",
     "volume": "2250 ml",
-    "price": 98000,
+    "price": "98000 USD",
     "bashing": 4,
-	"cutting": 31,
+    "cutting": 31,
     "material": "steel",
     "symbol": "/",
     "color": "red",
@@ -409,86 +408,87 @@
   },
 
   {
-  "id": "zweifire_off",
-  "type": "TOOL",
-  "category": "weapons",
-  "name": { "str": "flammenschwert (aus)" },
-  "description": "Ein großes zweihändiges Schwert aus Deutschland, an dessen Klinge sich, unter Zuführung von Benzin, eine anhaltende Flamme erzeugen lässt. Es ist eine sehr mächtige Waffe.",
-  "weight": "3400 g",
-  "volume": "3750 ml",
-  "price": 160000,
-  "bashing": 17,
-  "cutting": 40,
-  "material": "steel",
-  "symbol": "/",
-  "color": "light_gray",
-  "ammo": "gasoline",
-  "charges_per_use": 1,
-  "max_charges": 250,
-  "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-  "use_action": {
-    "type": "fireweapon_off",
-    "target_id": "zweifire_on",
-    "moves": 10,
-    "noise": 10,
-    "success_message": "Die Klinge deines Schwertes brennt!",
-    "lacks_fuel_message": "Dein Flammenschwert hat keinen Brennstoff mehr."
-  },
-  "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 1 ] ],
-  "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
-},
-
-{
-  "id": "zweifire_on",
-  "type": "TOOL",
-  "category": "weapons",
-  "name": { "str": "flammenschwert" },
-  "description": "Ein großes zweihändiges Schwert aus Deutschland, dessen Klinge nun hell brennt. Es ist eine sehr mächtige Waffe.",
-  "weight": "3400 g",
-  "volume": "3750 ml",
-  "price": 160000,
-  "bashing": 17,
-  "cutting": 40,
-  "material": "steel",
-  "symbol": "/",
-  "color": "red",
-  "ammo": "gasoline",
-  "max_charges": 250,
-  "turns_per_charge": 20,
-  "revert_to": "zweifire_off",
-  "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
-  "use_action": [
-    {
-      "type": "fireweapon_on",
-      "noise_chance": 35,
-      "noise_message": "Das Feuer um deine Schwertklinge leuchtet hell!",
-      "voluntary_extinguish_message": "Die Flamme deines Schwertes erlischt.",
-      "charges_extinguish_message": "Deinem Flammenschwert ist der Brennstoff ausgegangen!",
-      "water_extinguish_message": "Dein Schwert zischt und erlischt."
+    "id": "zweifire_off",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "flammenschwert (aus)" },
+    "description": "Ein großes zweihändiges Schwert aus Deutschland, an dessen Klinge sich, unter Zuführung von Benzin, eine anhaltende Flamme erzeugen lässt. Es ist eine sehr mächtige Waffe.",
+    "weight": "3400 g",
+    "volume": "3750 ml",
+    "price": "160000 USD",
+    "bashing": 17,
+    "cutting": 40,
+    "material": "steel",
+    "symbol": "/",
+    "color": "light_gray",
+    "ammo": "gasoline",
+    "charges_per_use": 1,
+    "max_charges": 250,
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
+    "use_action": {
+      "type": "fireweapon_off",
+      "target_id": "zweifire_on",
+      "moves": 10,
+      "noise": 10,
+      "success_message": "Die Klinge deines Schwertes brennt!",
+      "lacks_fuel_message": "Dein Flammenschwert hat keinen Brennstoff mehr."
     },
-    { "type": "firestarter", "moves": 30 }
-  ],
-  "flags": [
-    "FIRE",
-    "LIGHT_240",
-    "CHARGEDIM",
-    "FLAMING",
-    "DURABLE_MELEE",
-    "TRADER_AVOID",
-    "WATER_EXTINGUISH",
-    "ALWAYS_TWOHAND"
-  ]
-},
-{
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 1 ] ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "ALWAYS_TWOHAND" ]
+  },
+
+  {
+    "id": "zweifire_on",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "flammenschwert" },
+    "description": "Ein großes zweihändiges Schwert aus Deutschland, dessen Klinge nun hell brennt. Es ist eine sehr mächtige Waffe.",
+    "weight": "3400 g",
+    "volume": "3750 ml",
+    "price": "160000 USD",
+    "bashing": 17,
+    "cutting": 40,
+    "material": "steel",
+    "symbol": "/",
+    "color": "red",
+    "ammo": "gasoline",
+    "max_charges": 250,
+    "turns_per_charge": 20,
+    "revert_to": "zweifire_off",
+    "techniques": [ "WBLOCK_1", "WIDE", "BRUTAL", "SWEEP" ],
+    "use_action": [
+      {
+        "type": "fireweapon_on",
+        "noise_chance": 35,
+        "noise_message": "Das Feuer um deine Schwertklinge leuchtet hell!",
+        "voluntary_extinguish_message": "Die Flamme deines Schwertes erlischt.",
+        "charges_extinguish_message": "Deinem Flammenschwert ist der Brennstoff ausgegangen!",
+        "water_extinguish_message": "Dein Schwert zischt und erlischt."
+      },
+      { "type": "firestarter", "moves": 30 }
+    ],
+    "flags": [
+      "FIRE",
+      "LIGHT_240",
+      "CHARGEDIM",
+      "FLAMING",
+      "DURABLE_MELEE",
+      "TRADER_AVOID",
+      "WATER_EXTINGUISH",
+      "ALWAYS_TWOHAND"
+    ]
+  },
+
+  {
     "id": "crackle_hydraulic_gauntlet",
     "type": "GENERIC",
     "weapon_category": [ "FIST_WEAPONS" ],
     "name": { "str": "Electric hydraulic gauntlet" },
-    "description": "A huge, heavy metal gauntlet lined with tubing and gauges.  Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively.  Thanks to an internal microreactor, it doesn't require power of its own. Modified with two tesla coils.",
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively. Thanks to an internal microreactor, it doesn't require power of its own. Modified with two tesla coils.",
     "weight": "3778 g",
     "volume": "2 L",
     "price": "100 kUSD",
-	"looks_like": "afs_hydraulic_gauntlet",
+    "looks_like": "afs_hydraulic_gauntlet",
     "price_postapoc": "200 USD",
     "material": [ "hardsteel" ],
     "symbol": "[",
@@ -498,16 +498,17 @@
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "SHOCKING" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ]
   },
+
   {
     "id": "thermal_hydraulic_gauntlet",
     "type": "GENERIC",
     "weapon_category": [ "FIST_WEAPONS" ],
     "name": { "str": "Thermal hydraulic gauntlet" },
-    "description": "A huge, heavy metal gauntlet lined with tubing and gauges.  Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively.  Thanks to an internal microreactor, it doesn't require power of its own. Modified with two heating coils.",
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively. Thanks to an internal microreactor, it doesn't require power of its own. Modified with two heating coils.",
     "weight": "3778 g",
     "volume": "2 L",
     "price": "100 kUSD",
-	"looks_like": "afs_hydraulic_gauntlet",
+    "looks_like": "afs_hydraulic_gauntlet",
     "price_postapoc": "200 USD",
     "material": [ "hardsteel" ],
     "symbol": "[",
@@ -516,7 +517,7 @@
     "to_hit": -2,
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "FLAMING" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
-	"relic_data": {
+    "relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
@@ -532,16 +533,17 @@
       ]
     }
   },
+
   {
     "id": "acid_hydraulic_gauntlet",
     "type": "GENERIC",
     "weapon_category": [ "FIST_WEAPONS" ],
     "name": { "str": "Acid hydraulic gauntlet" },
-    "description": "A huge, heavy metal gauntlet lined with tubing and gauges.  Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively.  Thanks to an internal microreactor, it doesn't require power of its own. Modified with an acid container.",
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively. Thanks to an internal microreactor, it doesn't require power of its own. Modified with an acid container.",
     "weight": "3778 g",
     "volume": "2 L",
     "price": "100 kUSD",
-	"looks_like": "afs_hydraulic_gauntlet",
+    "looks_like": "afs_hydraulic_gauntlet",
     "price_postapoc": "200 USD",
     "material": [ "hardsteel" ],
     "symbol": "[",
@@ -550,7 +552,7 @@
     "to_hit": -2,
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "ACID" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
-	"relic_data": {
+    "relic_data": {
       "passive_effects": [
         {
           "has": "WIELD",
@@ -566,7 +568,7 @@
       ]
     }
   },
-   {
+    {
     "id": "folding_axe",
     "type": "TOOL",
     "category": "tools",
@@ -574,8 +576,8 @@
     "description": "An axe whose blade deploys at the touch of a button.",
     "weight": "114 g",
     "volume": "50 ml",
-    "price": 2000,
-    "price_postapoc": 50,
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
     "to_hit": -2,
     "material": [ "steel", "plastic" ],
     "symbol": ";",
@@ -596,14 +598,14 @@
     "description": "A deployed folding axe base.",
     "weight": "114 g",
     "volume": "56 ml",
-    "price": 2000,
-    "price_postapoc": 50,
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
     "to_hit": 1,
     "cutting": 15,
     "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "dark_gray",
-	"techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
+    "techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
     "qualities": [ [ "AXE", 2 ], [ "BUTCHER", -20 ] ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ],
     "use_action": {
@@ -613,7 +615,8 @@
       "msg": "You switch the axe blade down"
     }
   },
-   {
+
+  {
     "id": "gun_sword_metal",
     "type": "GENERIC",
     "category": "weapons",
@@ -633,19 +636,20 @@
     "flags": [ "SHEATH_SWORD", "NONCONDUCTIVE" ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 7 ] ],
     "techniques": [ "WBLOCK_2" ],
-	 "use_action": {
+    "use_action": {
       "type": "transform",
       "msg": "You open the mechanism, and ready yourself to fire.",
       "target": "sword_ar15"
     }
   },
+
   {
     "id": "sword_ar15",
     "copy-from": "rifle_semi",
     "type": "GUN",
-	"looks_like": "longsword",
+    "looks_like": "longsword",
     "name": { "str": "Gun sword AR" },
-    "description": "This ubiquitous rifle is the forefather of M16 rifle series.  It is lightweight and accurate, stripped and afixed to a blade for an awesome survival weapon.",
+    "description": "This ubiquitous rifle is the forefather of M16 rifle series. It is lightweight and accurate, stripped and affixed to a blade for an awesome survival weapon.",
     "weight": "3500 g",
     "volume": "2 L",
     "barrel_volume": "250 ml",
@@ -678,17 +682,18 @@
         ]
       ]
     ],
-	"use_action": {
+    "use_action": {
       "type": "transform",
       "msg": "You fold the ar back into its mechanism and ready your blade.",
       "target": "gun_sword_metal"
     }
   },
+
   {
     "id": "m22_knifegun",
     "type": "TOOL",
     "category": "weapons",
-	"looks_like": "switchblade",
+    "looks_like": "switchblade",
     "name": { "str": "m22 knife gun" },
     "description": "This unique knife has a .22 revolver in the handle.",
     "color": "dark_gray",
@@ -696,7 +701,7 @@
     "weight": "700 g",
     "volume": "750 ml",
     "max_charges": 6,
-    "price": 20000,
+    "price": "20000 USD",
     "cutting": 15,
     "to_hit": 1,
     "symbol": "8",
@@ -716,8 +721,8 @@
     "name": { "str": "m22 gun knife" },
     "description": "A six-shot .22 revolver integral to knife handle.",
     "volume": "402 ml",
-    "price": 42400,
-    "price_postapoc": 1250,
+    "price": "42400 USD",
+    "price_postapoc": "1250 USD",
     "cutting": 15,
     "valid_mod_locations": [],
     "to_hit": -1,

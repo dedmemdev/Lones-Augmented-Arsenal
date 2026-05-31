@@ -1,5 +1,4 @@
-
-  [
+[
   {
     "id": "we23s_minigun",
     "type": "GUN",
@@ -13,8 +12,8 @@
 
     "weight": "3390 g",
     "volume": "6500 ml",
-    "price": 699000,
-    "price_postapoc": 1500,
+    "price": "699000 USD",
+    "price_postapoc": "1500 USD",
 
     "material": [ "plastic", "aluminum" ],
 

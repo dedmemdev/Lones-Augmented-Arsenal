@@ -6,7 +6,7 @@
     "description": "A pair of articulated composite wings made from carbon fiber, aluminum struts, and high‑tension synthetic membranes. A compact electric motor assembly provides lift and thrust, allowing short‑to‑medium duration powered flight without stamina use. Designed as a wearable harness, not a bionic.",
     "weight": "6500 g",
     "volume": "12 L",
-    "price": 120000,
+    "price": "120000 USD",
     "material": [ "aluminum", "carbon_fiber" ],
     "symbol": "[",
     "color": "light_gray",
@@ -61,4 +61,3 @@
     ]
   }
 ]
-

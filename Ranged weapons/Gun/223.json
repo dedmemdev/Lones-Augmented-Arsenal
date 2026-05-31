@@ -1,106 +1,51 @@
 [
-{
-  "id": "folding_rifle_base",
-  "type": "TOOL",
-  "category": "weapons",
+  {
+    "id": "folding_rifle_base",
+    "type": "TOOL",
+    "category": "weapons",
 
-  "name": { "str": "folding rifle base" },
-  "description": "A compact rifle base. Activate to unfold into a functional M4A1.",
+    "name": { "str": "folding rifle base" },
+    "description": "A compact rifle base. Activate to unfold into a functional M4A1.",
 
-  "symbol": "8",
-  "color": "dark_gray",
+    "symbol": "8",
+    "color": "dark_gray",
 
-  "material": [ "brass" ],
-  "weight": "700 g",
-  "volume": "750 ml",
-  "price": 20000,
+    "material": [ "brass" ],
+    "weight": "700 g",
+    "volume": "750 ml",
+    "price": "20000 USD",
 
-  "bashing": 10,
-  "to_hit": 0,
+    "bashing": 10,
+    "to_hit": 0,
 
-  "use_action": {
-    "type": "transform",
-    "target": "folding_rifle_on",
-    "active": false,
-    "msg": "You unfold the M4A1."
-  }
-},
-{
-  "id": "folding_rifle_on",
-  "type": "GUN",
-  "copy-from": "rifle_auto",
-  "looks_like": "ar15",
-
-  "name": { "str": "folding M4A1" },
-  "description": "An M4A1 modified with a folding mechanism for compact carry.",
-
-  "symbol": "(",
-  "color": "dark_gray",
-
-  "weight": "3160 g",
-  "volume": "1750 ml",
-  "price": 240000,
-  "price_postapoc": 5000,
-
-  "material": [ "steel", "plastic" ],
-  "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "muzzle", 1 ],
-      [ "sights", 1 ],
-      [ "sling", 1 ],
-      [ "underbarrel", 1 ]
-	  ],
-
-  "ammo": "223",
-  "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-  "dispersion": 180,
-  "durability": 6,
-  "min_cycle_recoil": 1350,
-
-  "modes": [
-    [ "DEFAULT", "semi", 1 ],
-    [ "AUTO", "auto", 4 ]
-  ],
-
-  "bashing": 12,
-  "to_hit": -1,
-
-  "use_action": {
-    "type": "transform",
-    "target": "folding_rifle_base",
-    "active": false,
-    "msg": "You fold the M4A1."
+    "use_action": {
+      "type": "transform",
+      "target": "folding_rifle_on",
+      "active": false,
+      "msg": "You unfold the M4A1."
+    }
   },
 
-  "magazines": [
-    [
-      "223",
-      [
-        "stanag30", "stanag5", "stanag10", "stanag20",
-        "stanag40", "stanag50", "stanag60", "stanag60drum",
-        "stanag90", "stanag100", "stanag100drum",
-        "stanag150", "survivor223mag"
-      ]
-    ]
-  ]
-},
-{
-  "id": "double_m4a1",
-  "type": "GUN",
-  "copy-from": "rifle_auto",
+  {
+    "id": "folding_rifle_on",
+    "type": "GUN",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
 
-  "name": { "str": "Double barrel M4A1" },
-  "description": "A dual‑barrel M4A1 designed for extreme suppressive fire.",
+    "name": { "str": "folding M4A1" },
+    "description": "An M4A1 modified with a folding mechanism for compact carry.",
 
-  "weight": "3710 g",
-  "ammo": "223",
-  "valid_mod_locations": [
+    "symbol": "(",
+    "color": "dark_gray",
+
+    "weight": "3160 g",
+    "volume": "1750 ml",
+    "price": "240000 USD",
+    "price_postapoc": "5000 USD",
+
+    "material": [ "steel", "plastic" ],
+
+    "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
       [ "bore", 1 ],
@@ -112,45 +57,112 @@
       [ "sights", 1 ],
       [ "sling", 1 ],
       [ "underbarrel", 1 ]
-	  ],
+    ],
 
-  "modes": [
-    [ "DEFAULT", "double", 2 ],
-    [ "BURST", "burst", 4 ],
-    [ "AUTO", "auto", 8 ]
-  ],
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
 
-  "magazines": [
-    [ "223", [ "double_mag_60" ] ]
-  ],
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "AUTO", "auto", 4 ]
+    ],
+
+    "bashing": 12,
+    "to_hit": -1,
+
+    "use_action": {
+      "type": "transform",
+      "target": "folding_rifle_base",
+      "active": false,
+      "msg": "You fold the M4A1."
+    },
+
+    "magazines": [
+      [
+        "223",
+        [
+          "stanag30", "stanag5", "stanag10", "stanag20",
+          "stanag40", "stanag50", "stanag60", "stanag60drum",
+          "stanag90", "stanag100", "stanag100drum",
+          "stanag150", "survivor223mag"
+        ]
+      ]
+    ]
+  },
+
+  {
+    "id": "double_m4a1",
+    "type": "GUN",
+    "copy-from": "rifle_auto",
+
+    "name": { "str": "Double barrel M4A1" },
+    "description": "A dual‑barrel M4A1 designed for extreme suppressive fire.",
+
+    "weight": "3710 g",
+    "ammo": "223",
+
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+
+    "modes": [
+      [ "DEFAULT", "double", 2 ],
+      [ "BURST", "burst", 4 ],
+      [ "AUTO", "auto", 8 ]
+    ],
+
+    "magazines": [
+      [ "223", [ "double_mag_60" ] ]
+    ],
 
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "durability": 1
-},
-{
+  },
+
+  {
     "id": "double_m249",
     "copy-from": "mg_base",
     "type": "GUN",
+
     "name": { "str": "Double barrel M249" },
     "description": "The M249 is a mountable machine gun used by the US military and SWAT teams. This one is a double barrel model that has a unique firing modes. Two barrels are supposed to help mitigate heat buildup.",
+
     "weight": "7330 g",
     "volume": "3 L",
     "barrel_volume": "250 ml",
     "price": "7500 USD",
     "price_postapoc": "80 USD",
+
     "ascii_picture": "m249_saw",
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
+
     "ammo": "223",
     "dispersion": 200,
     "durability": 7,
     "min_cycle_recoil": 1350,
+
     "modes": [
-    [ "DEFAULT", "double", 2 ],
-    [ "BURST", "burst", 4 ],
-    [ "AUTO", "auto", 8 ]
-  ],
+      [ "DEFAULT", "double", 2 ],
+      [ "BURST", "burst", 4 ],
+      [ "AUTO", "auto", 8 ]
+    ],
+
     "built_in_mods": [ "bipod" ],
+
     "valid_mod_locations": [
       [ "accessories", 4 ],
       [ "barrel", 1 ],
@@ -164,6 +176,7 @@
       [ "sling", 1 ],
       [ "stock", 1 ]
     ],
+
     "magazines": [
       [
         "223",
@@ -186,5 +199,3 @@
     ]
   }
 ]
-
-

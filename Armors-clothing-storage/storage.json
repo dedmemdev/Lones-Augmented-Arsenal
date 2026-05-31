@@ -199,7 +199,7 @@
 	  "holster_prompt": "Stash gun or ammo?",
       "holster_msg": "You stash your %s.",
       "max_volume": "1 L",
-      "min_volume": "100 ml",
+      "min_volume": "200 ml",
       "skills": [ "pistol" ],
 	   "multi": 2,
       "flags": [ "HOLSTER_PISTOL", "MAG_COMPACT", "MAG_BULKY", "MAG_BELT", "SPEEDLOADER" ]

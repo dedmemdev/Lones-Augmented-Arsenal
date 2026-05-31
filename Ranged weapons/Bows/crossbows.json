@@ -1,0 +1,148 @@
+[
+  {
+    "id": "auto_crossbow",
+    "type": "GUN",
+    "looks_like": "crossbow",
+
+    "name": { "str": "auto crossbow" },
+    "description": "A well‑made crossbow with a mechanism that loads and fires bolts in a single motion. Bolts fired from this weapon often remain intact for re‑use.",
+
+    "symbol": "(",
+    "color": "green",
+
+    "weight": "3628 g",
+    "volume": "2500 ml",
+    "price": "4000 USD",
+    "price_postapoc": "6000 USD",
+
+    "material": [ "steel", "wood" ],
+
+    "skill": "smg",
+    "ammo": "bolt",
+
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "BURST", "burst", 3 ]
+    ],
+
+    "bashing": 13,
+    "to_hit": -1,
+
+    "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
+    "range": 12,
+    "dispersion": 500,
+    "recoil": 30,
+    "durability": 6,
+    "reload": 300,
+    "reload_noise_volume": 10,
+
+    "valid_mod_locations": [
+      [ "dampening", 1 ]
+    ],
+
+    "magazines": [
+      [ "bolt", [ "crossbow_10mag" ] ]
+    ],
+
+    "flags": [
+      "FIRE_TWOHAND",
+      "TRADER_AVOID",
+      "CROSSBOW"
+    ]
+  },
+
+  {
+    "id": "plasma_longbow",
+    "type": "GUN",
+    "symbol": "(",
+    "looks_like": "afs_hardlight_longbow",
+    "color": "white",
+    "name": { "str": "Plasma longbow" },
+    "description": "A compact, stringless metal longbow constructed of atomic-age materials. Rather than using ammunition, a series of mirrors create a super heated plasma arrow. It runs off of UPS.",
+
+    "price": "2000000 USD",
+    "price_postapoc": "30000 USD",
+
+    "material": [ "carbide", "plastic" ],
+    "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
+    "skill": "archery",
+    "min_strength": 9,
+    "weight": "120 g",
+    "volume": "1500 ml",
+    "ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
+    "bashing": 15,
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
+    "reload_noise_volume": 0,
+    "loudness": 0,
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 10 },
+    "range": 30,
+    "dispersion": 80,
+    "durability": 6,
+    "reload": 50,
+    "ups_charges": 25,
+    "valid_mod_locations": [
+      [ "underbarrel", 1 ],
+      [ "sights", 1 ],
+      [ "accessories", 2 ],
+      [ "stabilizer", 1 ]
+    ]
+  },
+
+  {
+    "id": "machine_bow",
+    "type": "GUN",
+    "name": { "str": "HM101A machine bow" },
+    "description": "With a kinetic energy-amplification pulley mechanism, this military-grade prototype excels at accuracy and rapid fire of 5.56x45mm rounds in exchange for losing its capabilities as a silent weapon. Comes attached with a built-in calibrator, sight, noise suppressor, and additional magazine which accepts shotgun shells.",
+
+    "looks_like": "compositebow",
+    "weapon_category": [ "BOWS" ],
+    "symbol": "(",
+    "skill": "archery",
+    "flags": [ "BELTED", "COMPACT", "WATER_FRIENDLY", "WATERPROOF_GUN", "FIRE_TWOHAND", "NEVER_JAMS", "STR_DRAW", "ALLOWS_WINGS" ],
+    "ammo_effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
+    "color": "dark_gray",
+
+    "price": "20 kUSD",
+    "material": [ "steel", "superalloy" ],
+    "min_strength": 13,
+    "weight": "1400 g",
+    "volume": "3750 ml",
+    "price_postapoc": "80 USD",
+
+    "armor_data": { "covers": [ "torso" ], "encumbrance": 28 },
+    "bashing": 16,
+    "reload_noise_volume": 1,
+    "ranged_damage": { "damage_type": "bullet", "amount": -2, "armor_penetration": 3 },
+    "range": -6,
+    "dispersion": 775,
+    "durability": 9,
+    "loudness": -80,
+
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "AUTO", "auto", 2 ]
+    ],
+
+    "ammo": "223",
+    "built_in_mods": [
+      "mach_bow_arrowrest",
+      "mach_bow_sight",
+      "mach_bow_silencer",
+      "mb_aux_shotgun"
+    ],
+
+    "valid_mod_locations": [
+      [ "rail", 1 ],
+      [ "underbarrel", 1 ],
+      [ "sights", 1 ],
+      [ "accessories", 2 ],
+      [ "brass catcher", 1 ],
+      [ "stabilizer", 1 ],
+      [ "dampening", 1 ]
+    ],
+
+    "magazines": [
+      [ "223", [ "stanag30", "stanag5", "stanag10", "stanag20" ] ]
+    ]
+  }
+]

@@ -1,3 +1,4 @@
+[
 {
   "id": "modified_deagle_44",
   "type": "GUN",
@@ -11,8 +12,8 @@
 
   "weight": "1700 g",
   "volume": "750 ml",
-  "price": 87500,
-  "price_postapoc": 2750,
+  "price": "87500 USD",
+  "price_postapoc": "2750 USD",
 
   "material": [ "steel", "plastic" ],
 
@@ -56,3 +57,4 @@
     [ "44", [ "deaglemag" ] ]
   ]
 }
+]

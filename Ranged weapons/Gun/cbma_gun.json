@@ -6,7 +6,7 @@
     "description": "A railgun that accelerates a semi‑plasma projectile using electromagnetic induction. The projectile dissolves on impact and cannot be recovered.",
     "weight": "12500 g",
     "volume": "20 L",
-    "price": 16500,
+    "price": "16500 USD",
     "to_hit": -4,
 
     "bashing": 12,
@@ -49,7 +49,7 @@
     "description": "An improved railgun with shortened rails and parallel acceleration channels. Uses a detachable magazine for faster reloads.",
     "weight": "20000 g",
     "volume": "32 L",
-    "price": 16500,
+    "price": "16500 USD",
     "to_hit": -4,
 
     "bashing": 12,
@@ -100,11 +100,11 @@
     "description": "A brutal weapon that fires a superalloy pile at extreme velocity using explosive glaze charges. Terrifyingly powerful at point‑blank range.",
     "weight": "17500 g",
     "volume": "28 L",
-    "price": 16500,
+    "price": "16500 USD",
     "to_hit": 1,
 
     "bashing": 12,
-	"cutting": 24,
+    "cutting": 24,
     "material": [ "steel", "superalloy" ],
 
     "symbol": "|",
@@ -139,11 +139,11 @@
     "description": "An electromagnetic pile hammer that fires a superalloy pile using magnetic induction. Less powerful than the explosive version, but generates a strong EMP effect.",
     "weight": "17500 g",
     "volume": "28 L",
-    "price": 16500,
+    "price": "16500 USD",
     "to_hit": 1,
 
     "bashing": 12,
-	"cutting": 24,
+    "cutting": 24,
     "material": [ "steel", "superalloy" ],
 
     "symbol": "|",

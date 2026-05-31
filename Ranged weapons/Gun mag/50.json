@@ -7,8 +7,8 @@
     "looks_like": "stanag30",
     "weight": "727 g",
     "volume": "500 ml",
-    "price": 10000,
-    "price_postapoc": 250,
+    "price": "10000 USD",
+    "price_postapoc": "250 USD",
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
@@ -27,8 +27,8 @@
     "looks_like": "stanag30",
     "weight": "727 g",
     "volume": "500 ml",
-    "price": 10000,
-    "price_postapoc": 250,
+    "price": "10000 USD",
+    "price_postapoc": "250 USD",
     "material": [ "steel" ],
     "symbol": "#",
     "color": "light_gray",
@@ -38,6 +38,7 @@
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
   },
+
   {
     "id": "deaglemag_50ae",
     "looks_like": "glock17_17",
@@ -46,7 +47,7 @@
     "description": "A standard 7-round steel box magazine for use with the .50ae Desert Eagle.",
     "weight": "90 g",
     "volume": "250 ml",
-    "price": "6750 cent",
+    "price": "67 USD",
     "price_postapoc": "1 USD",
     "material": "steel",
     "symbol": "#",
