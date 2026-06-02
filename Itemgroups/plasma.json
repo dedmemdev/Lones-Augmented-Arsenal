@@ -12,7 +12,8 @@
       [ "plasma_emitter_sniper", 3 ],
       [ "plasma_emitter_thrower", 2 ],
 	  [ "cbmp_plasma_sword_off", 3 ],
-	  [ "plasma_emitter_double_assault", 1 ]
+	  [ "plasma_emitter_double_assault", 1 ],
+	  [ "bot_recon", 6 ],
     ]
   }
 ]

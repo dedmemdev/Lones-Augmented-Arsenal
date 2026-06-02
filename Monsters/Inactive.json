@@ -20,5 +20,33 @@
       "is_pet": true,
       "skills": [ "electronics", "computer" ]
     }
+  },
+  {
+    "id": "bot_recon",
+    "type": "TOOL",
+    "name": { "str": "inactive recon hack" },
+    "description": "This is an inactive recon hack. Inside of this ball is a small recon drone, with razors, and sharp metals. Nice for stealth or a small room.",
+	"weight": "2700 g",
+    "volume": "750 ml",
+    "price": "600 USD",
+    "price_postapoc": "5 USD",
+	"looks_like": "bot_manhack",
+    "to_hit": -3,
+    "bashing": 6,
+    "cutting": 6,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ",",
+    "color": "light_green",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_recon_drone",
+      "friendly_msg": "The drone flies from your hand and surveys the area!",
+      "hostile_msg": "You misprogram the recon hack; it's hostile!",
+      "difficulty": 4,
+      "moves": 60,
+      "place_randomly": true,
+      "skills": [ "electronics", "computer" ]
+    },
+    "flags": [ "ACT_ON_RANGED_HIT", "ALLOWS_REMOTE_USE" ]
   }
 ]

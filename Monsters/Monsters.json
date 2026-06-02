@@ -1,0 +1,28 @@
+[
+{
+    "id": "mon_recon_drone",
+    "copy-from": "base_drone",
+    "type": "MONSTER",
+    "name": { "str": "recon drone" },
+    "description": "A small quadcopter equipped with a high-power spotlight and has very sharp carbon knives.  This automated seeker drone is for tight quarters and does decent damage.",
+    "diff": 2,
+    "default_faction": "science",
+	"looks_like": "mon_bloodhound_drone",
+    "speed": 190,
+    "color": "light_gray",
+    "melee_skill": 4,
+    "melee_dice": 4,
+    "melee_dice_sides": 8,
+    "special_attacks": [ [ "SEARCHLIGHT", 1 ] ],
+    "luminance": 60,
+    "melee_cut": 12,
+    "armor_bash": 6,
+    "armor_cut": 8,
+    "armor_bullet": 6,
+    "armor_fire": 3,
+    "revert_to_itype": "bot_recon",
+    "death_drops": { "groups": [ [ "robots", 4 ], [ "manhack", 1 ], [ "turret_searchlight", 1 ] ] },
+    "death_function": [ "BROKEN" ],
+    "extend": { "flags": [ "HIT_AND_RUN" ] }
+  }
+  ]
