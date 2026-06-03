@@ -515,8 +515,8 @@
   {
     "type": "recipe",
     "result": "leather_soaked_in_blob",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_CUTTING",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": "10 m",
@@ -530,8 +530,8 @@
   {
     "type": "recipe",
     "result": "blob_tailors_kit",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_CUTTING",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TOOLS",
     "skill_used": "fabrication",
     "difficulty": 0,
     "time": "10 m",
