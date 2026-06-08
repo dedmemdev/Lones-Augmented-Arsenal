@@ -427,7 +427,7 @@
     "coverage": 85,
     "encumbrance": 10,
     "storage": "10500 ml",
-    "warmth": 0,
+    "warmth": 20,
     "material_thickness": 7,
     "environmental_protection": 3,
     "flags": [ "VARSIZE", "POCKETS", "HOOD", "COLLAR", "STURDY", "WATERPROOF", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ]
@@ -452,7 +452,7 @@
     "coverage": 85,
     "encumbrance": 10,
     "storage": "10500 ml",
-    "warmth": 0,
+    "warmth": 30,
     "material_thickness": 5,
     "environmental_protection": 15,
     "flags": [
@@ -497,7 +497,7 @@
     "coverage": 85,
     "encumbrance": 0,
     "storage": "10500 ml",
-    "warmth": 0,
+    "warmth": 40,
     "material_thickness": 5,
     "environmental_protection": 15,
     "flags": [
@@ -1029,7 +1029,7 @@
     "coverage": 85,
     "encumbrance": 10,
     "storage": "10500 ml",
-    "warmth": 0,
+    "warmth": 30,
     "material_thickness": 5,
     "environmental_protection": 15,
     "flags": [
@@ -1077,7 +1077,7 @@
     "coverage": 85,
     "encumbrance": 0,
     "storage": "10500 ml",
-    "warmth": 0,
+    "warmth": 40,
     "material_thickness": 5,
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_duster_ups",
@@ -1122,7 +1122,7 @@
     "coverage": 100,
     "encumbrance": 5,
     "storage": "0 ml",
-    "warmth": 0,
+    "warmth": 15,
     "material_thickness": 1,
     "flags": [
       "WATERPROOF",
@@ -1166,7 +1166,7 @@
     "coverage": 100,
     "encumbrance": 0,
     "storage": "0 ml",
-    "warmth": 0,
+    "warmth": 30,
     "material_thickness": 1,
     "environmental_protection": 20,
     "revert_to": "cbma_inner_suite_ups",
