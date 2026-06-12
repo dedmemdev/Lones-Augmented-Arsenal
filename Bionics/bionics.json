@@ -37,5 +37,20 @@
     "description": "When this bionic is active, you can burn nearly any organic material as fuel (use 'E'), recharging your power level. Some materials will burn better than others.",
     "occupied_bodyparts": [ [ "torso", 30 ] ],
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bn_bio_arc_reactor",
+    "type": "bionic",
+    "name": { "str": "Arc Reactor" },
+    "description": "When installed in your chest is an arc reactor that produces a large amount of power, forever! Welcome to alien tech.",
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
+    "fuel_options": [ "plut_cell", "c_atomic_battery_power" ],
+	"fuel_capacity": 10000,
+    "fuel_efficiency": 3,
+	"passive_fuel_efficiency": 1,
+    "fuel_multiplier": 1500,
+    "time": 1,
+    "points": 1,
+    "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
   }
 ]

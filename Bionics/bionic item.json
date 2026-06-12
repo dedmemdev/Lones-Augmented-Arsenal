@@ -1,0 +1,11 @@
+[
+  {
+    "id": "bn_bio_arc_reactor",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Arc Reactor CBM" },
+    "description": "Installed in your chest is an arc reactor that produces a large amount of power, forever!",
+    "price": "10000 kUSD",
+    "difficulty": 11
+  }
+]
