@@ -255,5 +255,22 @@
       "male": [ "briefs" ],
       "female": [ "boy_shorts" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "stark_executive",
+    "name": "Stark Industries Executive",
+    "description": "You were the one chief executive of the Megacorporation Stark Industries. Marked consistently among the most powerful and influential persons of the world. Lets see if that tech was worth it.",
+    "points": 8,
+    "CBMs": [ "bio_batteries", "bio_power_storage_mkII", "bio_eye_enhancer", "bio_int_enhancer", "bio_memory", "bio_cable" ],
+    "skills": [ { "level": 5, "name": "speech" }, { "level": 5, "name": "computer" } ],
+    "starting_cash": 400000000,
+    "items": {
+      "both": {
+        "items": [ "tux", "dress_shoes", "socks", "atomic_watch_mark_l", "undershirt" ],
+      },
+      "male": [ "briefs", "collarpin", "diamond_ring" ],
+      "female": [ "panties", "hairpin", "pearl_collar" ]
+    }
   }
 ]
