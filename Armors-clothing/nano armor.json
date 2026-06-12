@@ -38,7 +38,8 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "Mark L combat armor (on)", "str_pl": "Mark L combat armors (on)" },
     "description": "Internally powered by an arc reactor, this full-body suit of red combat armor represents the pinnacle of stark industries. Whatever that is, is long gone, but still useful.",
-    "flags": [
+    "item_vars": { "tint_color": "Cataclysm Red", "tint_color_fg": "Cataclysm Red", "tint_color_bg": "Cataclysm Red" },
+	"flags": [
       "VARSIZE",
       "STURDY",
       "WATERPROOF",
@@ -56,10 +57,10 @@
       "COMBAT_NPC_USE",
       "COMBAT_NPC_ON",
 	  "USES_BIONIC_POWER",
-	  "ALLOWS_FLIGHT"
+	  "ALWAYS_ALLOWS_FLIGHT"
     ],
     "turns_per_charge": 18,
-    "revert_to": "rm13_armor",
+    "revert_to": "atomic_watch_mark_l",
     "relic_data": { "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "values": [ { "value": "STRENGTH", "add": 2 } ] } ] },
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your Mark L combat armor receeds back into the watch.", "target": "atomic_watch_mark_l" },
     "environmental_protection": 40,
