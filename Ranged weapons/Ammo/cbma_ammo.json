@@ -16,7 +16,7 @@
     "damage": { "damage_type": "stab", "amount": 0, "armor_penetration": 0 },
     "dispersion": 0,
     "recoil": 19800,
-    "loudness": 325,
+    "loudness": 100,
     "count": 6,
     "stack_size": 6,
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "MUZZLE_SMOKE", "WIDE" ]
