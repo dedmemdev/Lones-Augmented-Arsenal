@@ -40,8 +40,8 @@
     "description": "Internally powered by an arc reactor, this full-body suit of red combat armor represents the pinnacle of stark industries. Whatever that is, is long gone, but still useful.",
     "item_vars": { "tint_color": "Cataclysm Red", "tint_color_fg": "Cataclysm Red", "tint_color_bg": "Cataclysm Red" },
 	"flags": [
-      "VARSIZE",
-      "STURDY",
+      "VARSIZE"
+	  "STURDY",
       "WATERPROOF",
       "RAINPROOF",
       "WATCH",
@@ -57,7 +57,8 @@
       "COMBAT_NPC_USE",
       "COMBAT_NPC_ON",
 	  "USES_BIONIC_POWER",
-	  "ALWAYS_ALLOWS_FLIGHT"
+	  "ALWAYS_ALLOWS_FLIGHT",
+	  "FIT"
     ],
     "turns_per_charge": 18,
     "revert_to": "atomic_watch_mark_l",
