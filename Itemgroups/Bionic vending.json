@@ -16,7 +16,8 @@
       [ "armor_cbm_kit_box", 4 ],
       [ "everyday_cbm_kit_box", 5 ],
       [ "medical_cbm_kit_box", 4 ],
-	  [ "bn_bio_arc_reactor", 1 ]
+	  [ "bn_bio_arc_reactor", 1 ],
+	  [ "arc_lightning_rifle", 3 ]
     ]
   }
 ]
