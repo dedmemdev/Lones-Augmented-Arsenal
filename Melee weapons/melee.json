@@ -739,5 +739,55 @@
       "active": false,
       "msg": "You switch the handle down and grip it for stabbing."
     }
+  },
+  {
+    "id": "nano_spear",
+    "type": "GENERIC",
+	"looks_like": "spear_steel",
+    "category": "weapons",
+    "name": { "str": "nanotech spear" },
+    "description": "Using nanotech this spear can turn into a knife at will for ease of holding, and unique combat abilites.",
+    "weight": "1298 g",
+    "volume": "1750 ml",
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
+    "to_hit": 1,
+    "material": [ "superalloy" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "flags": [ "DURABLE_MELEE", "SPEAR", "REACH_ATTACK", "NONCONDUCTIVE", "SHEATH_SPEAR", "STAB" ],
+    "use_action": {
+      "type": "transform",
+      "target": "nano_knife",
+      "active": false,
+      "msg": "You hit the switch and the spear turns into a nano knife!"
+    }
+  },
+  {
+    "id": "nano_knife",
+    "type": "GENERIC",
+	"looks_like": "knife_combat",
+    "category": "weapons",
+    "name": { "str": "nano tech knife" },
+    "description": "This is the nanotech knife, that when switched turns into a spear to slightly better melee range. Click the button to turn into a spear!",
+    "weight": "400 g",
+    "volume": "250 ml",
+    "price": "2000 USD",
+    "price_postapoc": "50 USD",
+    "to_hit": 1,
+	"bashing": 4,
+    "cutting": 15,
+    "material": [ "superalloy" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 14 ] ],
+    "techniques": [ "RAPID" ],
+    "flags": [ "STAB", "SHEATH_KNIFE" ],
+    "use_action": {
+      "type": "transform",
+      "target": "nano_spear",
+      "active": false,
+      "msg": "You hit the switch and the knife turns into a spear!"
+    }
   }
 ]
