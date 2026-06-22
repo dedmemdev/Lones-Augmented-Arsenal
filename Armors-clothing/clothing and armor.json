@@ -329,59 +329,5 @@
     "material_thickness": 2,
     "environmental_protection": 2,
     "flags": [ "VARSIZE", "WATERPROOF" ]
-  },
-
-  {
-    "id": "armored_nanotech_cloak",
-    "type": "ARMOR",
-    "name": { "str": "armored nanotech cloak" },
-    "description": "A heavy cloak meant to be thrown over your body, custom modified, and uses nanotech to transform.",
-    "weight": "1175 g",
-    "volume": "3 L",
-    "price": "107 USD",
-    "price_postapoc": "5 USD",
-    "to_hit": -1,
-    "material": [ "kevlar" ],
-    "symbol": "[",
-    "looks_like": "cloak",
-    "color": "green",
-    "covers": [ "torso", "arms", "legs" ],
-    "coverage": 65,
-    "encumbrance": 4,
-    "warmth": 30,
-    "material_thickness": 4,
-    "environmental_protection": 3,
-    "flags": [ "OVERSIZE", "HOOD", "OUTER", "ALLOWS_TAIL_SNAKE" ],
-    "use_action": {
-      "type": "transform",
-      "target": "nano_whip",
-      "active": false,
-      "msg": "The cloak knows you want to switch to the whip and transforms!"
-    }
-  },
-
-  {
-    "id": "nano_whip",
-    "type": "GENERIC",
-    "category": "weapons",
-    "symbol": "/",
-    "color": "brown",
-    "looks_like": "bullwhip",
-    "name": { "str": "nanotech Whip" },
-    "description": "A long nanotech whip strong, and agile. Does really good damage against enemies. Activate to turn back into a cloak.",
-    "weight": "1000 g",
-    "volume": "2 L",
-    "price": "3500 USD",
-    "price_postapoc": "500 USD",
-    "material": [ "superalloy" ],
-    "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
-    "bashing": 15,
-    "cutting": 10,
-    "use_action": {
-      "type": "transform",
-      "target": "armored_nanotech_cloak",
-      "active": false,
-      "msg": "The whip senses you are done using it, and turns back into the armored cloak."
-    }
   }
 ]
