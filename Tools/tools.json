@@ -52,6 +52,7 @@
     },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
   },
+
   {
     "id": "auto_safecracker",
     "type": "TOOL",
@@ -110,154 +111,108 @@
     "ammo_modifier": "battery",
     "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]
   },
+
   {
-  "type": "GUN",
-  "reload_noise_volume": 10,
-  "name": {
-    "str": "Shoulder mounted machine gun"
-  },
-  "symbol": "(",
-  "durability": 8,
-  "to_hit": -2,
-  "color": "dark_gray",
-  "handling": 5,
-  "copy-from": "rifle_auto",
-  "weapon_category": [
-    "RIFLES",
-    "AUTOLOADING"
-  ],
-  "bashing": 5,
-
-  "skill": "rifle",
-  "valid_mod_locations": [],
-  "id": "mollee_gunpack",
-  "description": "This is a foldable m4a1 inside a MOLLE pack, it has a built in system to flip up and you can shoot it while in combat. You still have to reload it though, accepts drum mags.",
-  "weight": "3570 g",
-  "volume": "15 L",
-  "price": "4800 USD",
-  "price_postapoc": "50 USD",
-  "material": [
-    "steel",
-    "kevlar"
-  ],
-  "ammo": "223",
-  "ranged_damage": {
-    "damage_type": "bullet",
-    "amount": 0
-  },
-  "dispersion": 520,
-  "min_cycle_recoil": 450,
-  "blackpowder_tolerance": 24,
-  "modes": [
-    [ "DEFAULT", "semi", 1 ],
-    [ "BURST", "burst", 3 ],
-    [ "AUTO", "auto", 4 ]
-  ],
-  "magazines": [
-    [
-      "223",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "Shoulder mounted machine gun" },
+    "symbol": "(",
+    "durability": 8,
+    "to_hit": -2,
+    "color": "dark_gray",
+    "handling": 5,
+    "copy-from": "rifle_auto",
+    "weapon_category": [ "RIFLES", "AUTOLOADING" ],
+    "bashing": 5,
+    "skill": "rifle",
+    "valid_mod_locations": [],
+    "id": "mollee_gunpack",
+    "description": "This is a foldable m4a1 inside a MOLLE pack, it has a built in system to flip up and you can shoot it while in combat. You still have to reload it though, accepts drum mags.",
+    "weight": "3570 g",
+    "volume": "15 L",
+    "price": "4800 USD",
+    "price_postapoc": "50 USD",
+    "material": [ "steel", "kevlar" ],
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+    "dispersion": 520,
+    "min_cycle_recoil": 450,
+    "blackpowder_tolerance": 24,
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "BURST", "burst", 3 ],
+      [ "AUTO", "auto", 4 ]
+    ],
+    "magazines": [
       [
-        "stanag150",
-        "stanag100drum",
-        "stanag100"
+        "223",
+        [ "stanag150", "stanag100drum", "stanag100" ]
       ]
-    ]
-  ],
-  "built_in_mods": [
-    "folding_stock",
-    "grip"
-  ],
-  "sight_dispersion": 100,
-  "armor_data": {
-    "covers": [ "torso" ],
-    "coverage": 10,
-    "encumbrance": 30,
-    "material_thickness": 2
+    ],
+    "built_in_mods": [ "folding_stock", "grip" ],
+    "sight_dispersion": 100,
+    "armor_data": {
+      "covers": [ "torso" ],
+      "coverage": 10,
+      "encumbrance": 30,
+      "material_thickness": 2
+    },
+    "flags": [ "OVERSIZE", "RELOAD_EJECT", "BELTED", "WORN_GUN" ]
   },
-  "flags": [
-    "OVERSIZE",
-    "RELOAD_EJECT",
-    "BELTED",
-	"WORN_GUN"
-  ]
-},
-{
-  "type": "GUN",
-  "reload_noise_volume": 10,
-  "name": {
-    "str": "Wrist mounted Glock"
-  },
-  "symbol": "(",
-  "durability": 8,
-  "to_hit": -2,
-  "color": "dark_gray",
-  "handling": 5,
-  "copy-from": "pistol_base",
-  "weapon_category": [
-    "PISTOLS",
-    "AUTOLOADING"
-  ],
-  "bashing": 5,
 
-  "skill": "pistol",
-  "valid_mod_locations": [],
-  "id": "wrist_mounted_9mm",
-  "description": "A compact Glock 19 modified into a forearm‑mounted emergency sidearm. The pistol is secured in a rigid wrist brace with a stripped‑down frame and a simple firing linkage, allowing the user to fire while keeping both hands free. Accuracy suffers and reloading is awkward, but the setup provides a reliable close‑quarters option when mobility or multitasking matters more than precision.",
-  "weight": "200 g",
-  "volume": "500 ml",
-  "price": "4800 USD",
-  "price_postapoc": "50 USD",
-  "material": [
-    "steel",
-    "kevlar"
-  ],
-  "ammo": "9mm",
-  "ranged_damage": {
-    "damage_type": "bullet",
-    "amount": 0
-  },
-  "dispersion": 200,
-  "min_cycle_recoil": 150,
-  "blackpowder_tolerance": 14,
-  "modes": [
-    [ "DEFAULT", "semi", 1 ],
-    [ "BURST", "burst", 3 ],
-    [ "AUTO", "auto", 4 ]
-  ],
-  "magazines": [
-    [
-      "9mm",
+  {
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "Wrist mounted Glock" },
+    "symbol": "(",
+    "durability": 8,
+    "to_hit": -2,
+    "color": "dark_gray",
+    "handling": 5,
+    "copy-from": "pistol_base",
+    "weapon_category": [ "PISTOLS", "AUTOLOADING" ],
+    "bashing": 5,
+    "skill": "pistol",
+    "valid_mod_locations": [],
+    "id": "wrist_mounted_9mm",
+    "description": "A compact Glock 19 modified into a forearm‑mounted emergency sidearm. The pistol is secured in a rigid wrist brace with a stripped‑down frame and a simple firing linkage, allowing the user to fire while keeping both hands free.",
+    "weight": "200 g",
+    "volume": "500 ml",
+    "price": "4800 USD",
+    "price_postapoc": "50 USD",
+    "material": [ "steel", "kevlar" ],
+    "ammo": "9mm",
+    "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+    "dispersion": 200,
+    "min_cycle_recoil": 150,
+    "blackpowder_tolerance": 14,
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "BURST", "burst", 3 ],
+      [ "AUTO", "auto", 4 ]
+    ],
+    "magazines": [
       [
-        "glock_drum_50rd",
-        "glock17_22",
-        "glockbigmag",
-		"glockmag"
+        "9mm",
+        [ "glock_drum_50rd", "glock17_22", "glockbigmag", "glockmag" ]
       ]
-    ]
-  ],
-  "built_in_mods": [
-    "red_dot_sight",
-	"laser_sight"
-  ],
-  "sight_dispersion": 100,
-  "armor_data": {
-    "covers": [ "arm_either" ],
-    "coverage": 10,
-    "encumbrance": 15,
-    "material_thickness": 2
+    ],
+    "built_in_mods": [ "red_dot_sight", "laser_sight" ],
+    "sight_dispersion": 100,
+    "armor_data": {
+      "covers": [ "arm_either" ],
+      "coverage": 10,
+      "encumbrance": 15,
+      "material_thickness": 2
+    },
+    "flags": [ "OVERSIZE", "RELOAD_EJECT", "BELTED", "WORN_GUN" ]
   },
-  "flags": [
-    "OVERSIZE",
-    "RELOAD_EJECT",
-    "BELTED",
-	"WORN_GUN"
-  ]
-},
-{
+
+  {
     "type": "TOOL",
     "id": "house_dimension_key",
     "name": { "str": "pocket house key" },
-    "description": "A strange key that glows with an otherworldly light.  When activated, it opens a door to a pocket dimension containing a small extradimensional space.  The pocket dimension is tied to this key - if the key is destroyed, the dimension collapses.",
+    "description": "A strange key that glows with an otherworldly light. When activated, it opens a door to a pocket dimension containing a small extradimensional space.",
     "weight": "50 g",
     "volume": "10 ml",
     "price": "1 kUSD",
@@ -277,12 +232,13 @@
       }
     ]
   },
-{
+
+  {
     "id": "blob_tailors_kit",
     "type": "TOOL",
     "category": "tools_workshop",
     "name": { "str": "blob tailor's kit" },
-    "description": "This is a high quality kit consisting of a variety of needles, some plastic spools for thread, some small scissors, and an awl. Soaked in blob. Using your tailoring skill, this kit can customize your clothing and armor, whether up-armoring them or altering some items to fit mutant wearers.",
+    "description": "A high quality kit soaked in blob. Can customize clothing and armor.",
     "weight": "100 g",
     "volume": "500 ml",
     "price": "1000 USD",
@@ -296,7 +252,13 @@
     "initial_charges": 50,
     "max_charges": 600,
     "charges_per_use": 1,
-    "qualities": [ [ "SEW", 4 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ] ],
+    "qualities": [
+      [ "SEW", 4 ],
+      [ "SEW_CURVED", 1 ],
+      [ "KNIT", 1 ],
+      [ "LEATHER_AWL", 2 ],
+      [ "CUT", 1 ]
+    ],
     "use_action": [
       {
         "type": "repair_item",
@@ -311,21 +273,19 @@
         "type": "sew_advanced",
         "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "scute" ],
         "skill": "tailor",
-        "clothing_mods": [
-          "blob_pocketed",
-          "blob_leather_padded"
-        ]
+        "clothing_mods": [ "blob_pocketed", "blob_leather_padded" ]
       }
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
+
   {
     "id": "pro_oxy_torch",
     "type": "TOOL",
     "category": "tools",
     "looks_like": "oxy_torch",
     "name": { "str": "pro acetylene torch", "str_pl": "pro acetylene torches" },
-    "description": "A larger oxyacetylene torch kit for welding and cutting metal. Requires connection to pressurized welding gas cylinders. Can also destroy metal barriers.",
+    "description": "A larger oxyacetylene torch kit for welding and cutting metal.",
     "weight": "1800 g",
     "volume": "1 L",
     "price": "40000 USD",
@@ -345,12 +305,13 @@
     ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
   },
+
   {
     "id": "large_pet_carrier",
     "type": "GENERIC",
     "category": "tools",
     "name": { "str": "large pet carrier" },
-    "description": "A plastic container meant to hold large pets for transport. Use it on a suitable animal to capture; use it on an empty tile to release.",
+    "description": "A plastic container meant to hold large pets for transport.",
     "weight": "1000 g",
     "looks_like": "pet_carrier",
     "volume": "5 L",
@@ -365,12 +326,13 @@
     "use_action": "CAPTURE_MONSTER_ACT",
     "flags": [ "TRADER_AVOID" ]
   },
+
   {
     "id": "riv_grenade",
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "RM-E grenade" },
-    "description": "This is a Rivtech grenade. Does a lot more damage than a standard grenade and a bigger radius. Use this item to pull the pin and light the fuse.  You will then have five turns before it explodes; throwing it would be a good idea.",
+    "description": "A Rivtech grenade with a powerful blast radius.",
     "weight": "497 g",
     "volume": "250 ml",
     "price": "15 USD",
@@ -390,12 +352,13 @@
     },
     "flags": [ "RADIO_MODABLE", "RADIO_INVOKE_PROC", "BOMB", "GRENADE" ]
   },
+
   {
     "id": "riv_grenade_act",
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "active RM-E grenade" },
-    "description": "This is an active Rivtech grenade, and will explode any second now.  Better throw it!",
+    "description": "This is an active Rivtech grenade, and will explode any second now.",
     "weight": "497 g",
     "volume": "250 ml",
     "price": "0 cent",
@@ -416,9 +379,60 @@
       "explosion": {
         "damage": 70,
         "radius": 5,
-        "fragment": { "impact": { "damage_type": "bullet", "amount": 80, "armor_multiplier": 2 }, "range": 6 }
+        "fragment": {
+          "impact": { "damage_type": "bullet", "amount": 80, "armor_multiplier": 2 },
+          "range": 6
+        }
       }
     },
     "flags": [ "BOMB", "TRADER_AVOID" ]
+  },
+
+  {
+    "type": "GUN",
+    "name": { "str": "glove laser" },
+    "symbol": "(",
+    "durability": 8,
+    "to_hit": -2,
+    "color": "dark_gray",
+    "handling": 5,
+    "copy-from": "pistol_energy",
+    "weapon_category": [ "ENERGY_WEAPONS" ],
+    "bashing": 5,
+    "skill": "pistol",
+    "valid_mod_locations": [],
+    "id": "hand_laser_glove",
+    "description": "A superalloy glove that fires coherent energy beams directly powered by your bionic systems.",
+    "weight": "200 g",
+    "volume": "500 ml",
+    "price": "4800 USD",
+    "price_postapoc": "50 USD",
+    "material": [ "superalloy" ],
+	"range": 6,
+
+    "ranged_damage": {
+      "damage_type": "heat",
+      "amount": 15,
+      "armor_penetration": 15
+    },
+
+    "modes": [
+      [ "DEFAULT", "semi", 1 ],
+      [ "BURST", "burst", 3 ]
+    ],
+
+    "sight_dispersion": 100,
+
+    "armor_data": {
+      "covers": [ "hands" ],
+      "coverage": 10,
+      "encumbrance": 2,
+      "material_thickness": 4
+    },
+
+    "flags": [
+      "USES_BIONIC_POWER",
+      "WORN_GUN"
+    ]
   }
 ]
