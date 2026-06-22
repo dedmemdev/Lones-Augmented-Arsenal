@@ -494,7 +494,7 @@
     "symbol": "[",
     "color": "light_gray",
     "bashing": 60,
-    "to_hit": -2,
+    "to_hit": 1,
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "SHOCKING" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ]
   },
@@ -514,7 +514,7 @@
     "symbol": "[",
     "color": "light_gray",
     "bashing": 60,
-    "to_hit": -2,
+    "to_hit": 1,
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "FLAMING" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
     "relic_data": {
@@ -549,7 +549,7 @@
     "symbol": "[",
     "color": "light_gray",
     "bashing": 60,
-    "to_hit": -2,
+    "to_hit": 1,
     "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "ACID" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
     "relic_data": {
