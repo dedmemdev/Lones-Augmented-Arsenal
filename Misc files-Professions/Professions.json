@@ -267,7 +267,7 @@
     "starting_cash": 400000000,
     "items": {
       "both": {
-        "items": [ "tux", "dress_shoes", "socks", "atomic_watch_mark_l", "undershirt", "nano_spear", "armored_nanotech_cloak" ],
+        "items": [ "tux", "dress_shoes", "socks", "atomic_watch_mark_l", "undershirt", "nano_spear", "armored_nanotech_cloak", "armored_nanotech_backpack" ],
       },
       "male": [ "briefs", "collarpin", "diamond_ring" ],
       "female": [ "panties", "hairpin", "pearl_collar" ]
