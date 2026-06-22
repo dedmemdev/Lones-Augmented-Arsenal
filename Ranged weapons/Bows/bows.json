@@ -12,8 +12,8 @@
 
   "weight": "3628 g",
   "volume": "2500 ml",
-  "price": 4000,
-  "price_postapoc": 6000,
+  "price": "4000 USD",
+  "price_postapoc": "6000 USD",
 
   "material": [ "steel", "wood" ],
 
@@ -58,8 +58,8 @@
     "color": "white",
     "name": { "str": "Plasma longbow" },
     "description": "A compact, stringless metal longbow constructed of atomic-age materials.  Rather than using ammunition, a series of mirrors create a super heated plasma arrow.  It runs off of UPS.",
-    "price": 2000000,
-    "price_postapoc": 30000,
+    "price": "2000000 USD",
+    "price_postapoc": "30000 USD",
     "material": [ "carbide", "plastic" ],
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
     "skill": "archery",
@@ -92,7 +92,7 @@
     "flags": [ "BELTED", "COMPACT", "WATER_FRIENDLY", "WATERPROOF_GUN", "FIRE_TWOHAND", "NEVER_JAMS", "STR_DRAW", "ALLOWS_WINGS" ],
     "ammo_effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
     "color": "dark_gray",
-    "price": "20 kUSD",
+    "price": "20 USD",
     "material": [ "steel", "superalloy" ],
     "min_strength": 13,
     "weight": "1400 g",

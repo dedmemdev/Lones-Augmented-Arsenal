@@ -102,7 +102,7 @@
     "ammo_effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
     "color": "dark_gray",
 
-    "price": "20 kUSD",
+    "price": "20 USD",
     "material": [ "steel", "superalloy" ],
     "min_strength": 13,
     "weight": "1400 g",
