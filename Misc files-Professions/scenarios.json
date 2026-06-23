@@ -5,7 +5,7 @@
     "name": "One of the last alive",
     "points": 8,
 	"forced_traits": [ "HAS_NEMESIS" ],
-    "description": "With all the tech you had, your not suprised you lasted this long, but you wonder if anyone else made it out. You have been hunted this whole time too will he get you before you can get out? Guess we will see.",
+    "description": "With all the tech you had, your not suprised you lasted this long, but you wonder if anyone else made it out. Guess we will see.",
     "start_name": "Smart survivor",
     "allowed_locs": [ "sloc_military_base_barracks", "sloc_military_base_mess_hall", "sloc_military_base_communications_center", "sloc_mansion",  ],
     "professions": [

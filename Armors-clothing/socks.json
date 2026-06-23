@@ -14,10 +14,7 @@
     "looks_like": "socks_wool",
     "color": "white",
     "storage": "5 L",
-    "covers": [ "feet" ],
-    "encumbrance": 3,
-    "max_encumbrance": 10,
-    "coverage": 100,
+	"armor_portion_data": [ { "covers": [ "feet" ], "coverage": 100, "encumbrance": 4 } ],
     "warmth": 5,
     "material_thickness": 2,
     "flags": [ "VARSIZE", "SKINTIGHT" ]
@@ -37,10 +34,7 @@
     "looks_like": "socks_wool",
     "color": "white",
     "storage": "20 L",
-    "covers": [ "feet", "legs" ],
-    "encumbrance": 5,
-    "max_encumbrance": 25,
-    "coverage": 100,
+	"armor_portion_data": [ { "covers": [ "feet" ], "coverage": 100, "encumbrance": 2 }, { "covers": [ "legs" ], "coverage": 85, "encumbrance": 2 } ],
     "warmth": 10,
     "material_thickness": 2,
     "flags": [ "VARSIZE", "SKINTIGHT" ]
