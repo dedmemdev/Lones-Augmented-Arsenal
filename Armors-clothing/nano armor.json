@@ -9,6 +9,11 @@
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
+	"item_vars": {
+      "tint_color": "Cataclysm Red",
+      "tint_color_fg": "Cataclysm Red",
+      "tint_color_bg": "Cataclysm Red"
+    },
     "covers": [ "hand_either" ],
     "price": "6000 USD",
     "price_postapoc": "100 USD",
@@ -44,11 +49,6 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "Mark L combat armor (on)", "str_pl": "Mark L combat armors (on)" },
     "description": "Powered by an internal arc reactor, this full-body red combat armor represents the pinnacle of Stark Industries engineering.",
-    "item_vars": {
-      "tint_color": "Cataclysm Red",
-      "tint_color_fg": "Cataclysm Red",
-      "tint_color_bg": "Cataclysm Red"
-    },
     "flags": [
       "VARSIZE",
       "STURDY",
