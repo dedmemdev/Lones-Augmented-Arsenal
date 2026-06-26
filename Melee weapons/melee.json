@@ -751,6 +751,8 @@
     "volume": "1750 ml",
     "price": "2000 USD",
     "price_postapoc": "50 USD",
+	"cutting": 15,
+	"bashing": 10,
     "to_hit": 1,
     "material": [ "superalloy" ],
     "symbol": ";",
