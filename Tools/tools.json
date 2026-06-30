@@ -432,7 +432,8 @@
 
     "flags": [
       "USES_BIONIC_POWER",
-      "WORN_GUN"
+      "WORN_GUN",
+	  "NO_UNLOAD"
     ]
   }
 ]
